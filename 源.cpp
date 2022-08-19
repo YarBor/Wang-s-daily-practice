@@ -1,91 +1,83 @@
-#define _CRT_SECURE_NO_WARNINGS 1		
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-void px_compare(char*arr[]);
-char* fget(char* input, int n);
-void cd_compare(char* arr[]);
+//#define _CRT_SECURE_NO_WARNINGS 1
+#include "Í·.h"
+
 int main()
 {
-	char pe[5][11];
-	char* arr[5];
-	for (int i = 0; i <= 4; i++)
-	{
-		arr[i] = fget(pe[i], 10);
-		if (arr[i][0] == EOF || arr[i] == "EOF" || arr[i] == "eof")
-			break;
-	}
-	int b;
-	scanf("%d", &b);
-	if (b == 1)
-		for (int i = 0; i <= 4; i++)
-		{
-			fputs(arr[i], stdout);
-			printf("\n");
-		}
-	else if (b == 2)
-		px_compare(arr);
-	else if (b == 3)
-		cd_compare(arr);
-	return 0;
-} 
-void px_compare(char*arr[])
-{
-	int n = 3;
-	while (n >= 0)
-	{
-		for (int i = 0; i <= n; i++)
-		{
-			int e = strcmp(*(arr + i),*(arr + i + 1));//±È½Ï×Ö·û´®
-			if (e == 1)
-			{
-				char (*tep);
-				tep = *(arr + i);
-				*(arr + i) = *(arr + i + 1);
-				*(arr + i + 1) = tep;
-			}
-		}
-		n--;
-	}
-	for (int i = 0; i <= 4; i++)
-	{
-		fputs(arr[i], stdout);
-		printf("\n");
-	}
-}
-char* fget(char* input, int n)
-{
-	fgets(input, n+1, stdin);
 	int a = 0;
-	for (; a <= 9; a++)
+	static int i = -1;
+	while (1)
 	{
-		if (input[a] == '\n')
+		menu();
+		scanf("%d", &a);
+		if (a == out)
 		{
-			input[a] = '\0';
-			return input;
+			puts("done");
+			break;
 		}
+		else if (a == add)
+		{
+			i++;
+			point[i] = (struct person*)malloc(sizeof(struct person));
+			add_one(point[i]);
+			size_++;
+		}
+		else if (a == del)
+		{
+			puts("delete who?");
+			char input[20];
+			scanf("%s", &input);
+			//int m = 0;
+			//for (; m < size_; m++)
+			//{
+			//	if (strcmp(input, point[m]->name) == 0)
+			//	{
+			//		if (point[m + 1] == NULL)
+			//		{
+			//			free(point[m]);
+			//			break;
+			//		}
+			//		memmove(point[m], point[m + 1], (size_ - m) * sizeof(struct person));
+			//		free(point[size_ - 1]);
+			//		puts("done.");
+			//		break;
+			//	}
+			//}
+			//if (m == size_) 
+			//{
+			//	puts("wrong name!");
+			//	continue;
+			//}	
+			int x = find_(input, point, size_);
+			if (x == -1)
+			{
+				puts("wrong name!");
+				continue;
+			}
+			delete_one(x, &size_, point);
+			i--; size_--;
+		}
+		else if (a == scan)
+		{
+			print(point, size_);
+		}
+		else if (a == revise)
+		{
+			int q = to_revise(point, size_);
+			if (q == 0)
+				continue;
+
+
+		}
+		else if (a == sort)
+		{
+			//qsort(point, size_, sizeof(struct person*), my_compear);
+			mysort(point, size_);
+			puts("done.");
+		}
+
+
 	}
-	while (getchar() != '\n')
-	{
-		continue;
-	}
-	return input;
+
+
+	return 0;
 }
-void cd_compare(char* arr[])
-{
-	
-
-}
-
-
-//#include <stdio.h>
-//int main()
-//{
-//	for (int a = 0; a < 10; a++)
-//	{
-//		for (int b = 10; b < 9; b++)
-//			printf("%d%d\n", a, b);
-//		printf("\n");
-//	}
-//	return 0;
-//}
