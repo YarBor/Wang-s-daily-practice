@@ -1,83 +1,63 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-#include "头.h"
+#include "标头.h"
+#define MUBIAO 2
+ // Definition for singly-linked list.
+  struct ListNode {
+      int val;
+      struct ListNode *next;
+  };
 
+  struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
+  struct ListNode e = { 5,NULL };
+  struct ListNode d = { 4,&e };
+  struct ListNode c = { 3,&d };
+  struct ListNode b = { 2,&c };
+  struct ListNode a = { 1,&b };
+  struct ListNode** point;
 int main()
 {
-	int a = 0;
-	static int i = -1;
-	while (1)
-	{
-		menu();
-		scanf("%d", &a);
-		if (a == out)
-		{
-			puts("done");
-			break;
-		}
-		else if (a == add)
-		{
-			i++;
-			point[i] = (struct person*)malloc(sizeof(struct person));
-			add_one(point[i]);
-			size_++;
-		}
-		else if (a == del)
-		{
-			puts("delete who?");
-			char input[20];
-			scanf("%s", &input);
-			//int m = 0;
-			//for (; m < size_; m++)
-			//{
-			//	if (strcmp(input, point[m]->name) == 0)
-			//	{
-			//		if (point[m + 1] == NULL)
-			//		{
-			//			free(point[m]);
-			//			break;
-			//		}
-			//		memmove(point[m], point[m + 1], (size_ - m) * sizeof(struct person));
-			//		free(point[size_ - 1]);
-			//		puts("done.");
-			//		break;
-			//	}
-			//}
-			//if (m == size_) 
-			//{
-			//	puts("wrong name!");
-			//	continue;
-			//}	
-			int x = find_(input, point, size_);
-			if (x == -1)
-			{
-				puts("wrong name!");
-				continue;
-			}
-			delete_one(x, &size_, point);
-			i--; size_--;
-		}
-		else if (a == scan)
-		{
-			print(point, size_);
-		}
-		else if (a == revise)
-		{
-			int q = to_revise(point, size_);
-			if (q == 0)
-				continue;
+    int n = MUBIAO;
+    removeNthFromEnd(&a, n);
+    return 0;
 
+}
 
-		}
-		else if (a == sort)
-		{
-			//qsort(point, size_, sizeof(struct person*), my_compear);
-			mysort(point, size_);
-			puts("done.");
-		}
-
-
-	}
-
-
-	return 0;
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
+{
+    point = (struct ListNode**)malloc(sizeof(struct ListNode**));
+   struct ListNode* u = (struct ListNode*)malloc(sizeof(struct ListNode*));
+    u = head;
+  //  struct ListNode* u = head;
+    int e = 0;
+    while (1)
+    {
+        *(point + e) = (struct ListNode*)malloc(sizeof(struct ListNode*));
+        if (!*(point + e))
+        {
+            *(point + e) = u;
+        }
+        u = u->next;
+        if (!u)
+            break;
+        e++;
+    }
+    if (e + 1 == 2)//两项
+    {
+        if (n == 1)
+        {
+            free(point[1]);
+            point[0]->next = NULL;
+            return point[0];
+        }
+        if (n == 2) {
+            free(head);
+            return point[1];
+        }
+    }
+    u = point[e - n + 1];
+    point[e - n ]->next = point[e - n + 2];
+//    free(u);
+//    free(&point);
+  //  for (int p=0; p <= e; p++)
+   //     free(point[p]);
+    return head;
 }
