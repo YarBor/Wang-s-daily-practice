@@ -1,6 +1,8 @@
-int main()
+#include<stdio.h>
+int main(int argc,char**argv,char ** envg)
 {
-    int a = 0, b = 0;
-    for (int i = 1; a = b; i--)
-        puts("wang_s_right");
+    if(argc==1) printf("我嫩爹");
+    printf("%d\n",argc);//
+    for(int n=0;argv[n]!=NULL;n++)
+    puts(argv[n]);
 }
