@@ -25,6 +25,7 @@ void print_ls(char *path)
 void sortR(my_dirent *p_head)
 {
     my_dirent *pb, *pf, temp;
+    ;
     pf = p_head;
     if (p_head == NULL)
     { //链表为空
