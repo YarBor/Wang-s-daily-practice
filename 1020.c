@@ -9,6 +9,6 @@ int main(){
         for(j=1;j<=i;j++){  
             printf("%dx%d=%d\t",j,i,i*j);  
         }  
-        printf("\n");     
+       
     }  
 }
