@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+   #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 //汉诺塔
 int han_nuo(int n) //测定第n层转移到c柱的详细步数
