@@ -27,7 +27,6 @@ void bu_zhou_ba(int k);
 void bu_zhou_ca(int k);
 void bu_zhou_cb(int k);
 void bu_zhou_a(int k);
-
 void bu_zhou0(int k);
 void bu_zhou_ca(int k)
 {
