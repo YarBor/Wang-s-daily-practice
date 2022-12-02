@@ -1,0 +1,88 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.editorAssociations": {
+        "*.docx": "default"
+    },
+    "files.autoSave": "afterDelay",
+    "tabnine.experimentalAutoImports": true,
+    "vscode-office.openOutline": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "markdown-preview-enhanced.previewTheme": "monokai.css",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Black",
+    "editor.largeFileOptimizations": false,
+    "editor.codeActionsOnSave": {},
+    "editor.lineNumbers": "relative", //动态行号
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-c>": false,
+        //"<backspace>": false,
+        "<C-v>": false,
+        "vim.useSystemClipboard": true, // 启用系统粘贴板作为vim寄存器
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "after": [
+                "i"
+            ],
+        },
+        {
+            "before": [
+                ","
+            ],
+            "after": [
+                "^"
+            ],
+        },
+        {
+            "before": [
+                "."
+            ],
+            "after": [
+                "$"
+            ],
+        },
+        //{
+        //    "before": [
+        //        ".","."
+        //    ],
+        //    "after": [
+        //        "a"
+        //    ],
+        //},
+       // {
+       //     "before": [
+       //         "Shift",","
+       //     ],
+       //     "after": [
+       //         "10j"
+       //     ],
+       // },
+       // {
+       //     "before": [
+       //         "Shift","."
+       //     ],
+       //     "after": [
+       //         "10k"
+       //     ],
+       // }
+    ]
+}
