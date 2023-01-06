@@ -16,8 +16,11 @@ int main(int argc, char **argv)
     }
 
     auto it = List.begin();
-    for (int a : {1, 1, 1, 1})
-        it++;
+	while(1)
+	{
+		if(*it != 3)
+			break;
+	}
     List.insert(it, 10);
     for (auto &a : List)
     {
