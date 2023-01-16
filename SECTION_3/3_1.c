@@ -1,5 +1,6 @@
 #include"_head.h"
 void _3_1()
+
 {
     float float_a = 3.33333333;
     double double_b = 4.444444444;
