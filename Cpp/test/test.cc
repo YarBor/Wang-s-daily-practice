@@ -2,6 +2,6 @@
 int main()
 {
 	int a ;
-	std::cout<<(a == 0)<<std::endl;
+	std::cout<< a     <<std::endl;
 	return 0;
 }
