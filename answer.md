@@ -1,6 +1,5 @@
 ### Xiyou_LinuxGroup2022 纳新答案
 本篇会指出每到题目所包含的知识点 建议有所不了解时 查看链接内容
-
 ---
 #### - 0  我的计算器坏了?
 ![image.png](https://s2.loli.net/2022/10/26/MGci2q9rEOCUn8X.png)
