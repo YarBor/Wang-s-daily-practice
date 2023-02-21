@@ -1,8 +1,8 @@
-#include "标头.h"
+#include "??头.h"
 #define MUBIAO 2
  // Definition for singly-linked list.
   struct ListNode {
-      int val;
+          int val;
       struct ListNode *next;
   };
 
@@ -40,7 +40,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
             break;
         e++;
     }
-    if (e + 1 == 2)//两项
+    if (e + 1 == 2)//两??
     {
         if (n == 1)
         {
