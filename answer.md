@@ -5,7 +5,6 @@
 ![image.png](https://s2.loli.net/2022/10/26/MGci2q9rEOCUn8X.png)
 应该和数学有关 用 log 算...什么的
 咳 不会
-
 ---
 #### - 1  printf 还能这么玩?
 ![image.png](https://s2.loli.net/2022/10/26/6VQBlbW9ofuTPyO.png)
