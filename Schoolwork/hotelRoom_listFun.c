@@ -116,6 +116,20 @@ struct Node *findForChange(struct Node *head, int room_number)
     bool a;
     return find(head, room_number, &a);
 }
+
+void for_change(struct Node *head)
+{
+    puts("-1 or Invaild symbol will quit \ninput the target RoomNumber:>");
+    int room_number;
+    scanf("%d", &room_number);
+    while ('\n' != getchar())
+        ;
+    if (room_number == -1)
+        return;
+    else
+        change(head, room_number);
+}
+
 // 修改特定节点 // 带交互
 struct Node *change(struct Node *head, int room_number)
 {
@@ -135,6 +149,8 @@ struct Node *change(struct Node *head, int room_number)
         puts("input:> num or '-1'for quit");
         int aa = 0;
         scanf("%d", &aa);
+        while ('\n' != getchar())
+            ;
         if (aa == -1)
             break;
         else
@@ -145,6 +161,8 @@ struct Node *change(struct Node *head, int room_number)
         {
             puts("input:> string( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
+            while ('\n' != getchar())
+                ;
             if (strlen(buffer) > 19)
             {
                 puts("wrong type again please");
@@ -168,6 +186,8 @@ struct Node *change(struct Node *head, int room_number)
         while (1)
         {
             scanf("%s", buffer);
+            while ('\n' != getchar())
+                ;
             if (!strcmp(buffer, "Y"))
             {
                 tmp->next->room->is_available = 1;
@@ -190,6 +210,8 @@ struct Node *change(struct Node *head, int room_number)
             double num;
             puts("input:> number or '-1'for quit");
             scanf("%lf", &num);
+            while ('\n' != getchar())
+                ;
             if (num < -1)
             {
                 puts("wrong number , again please");
@@ -211,6 +233,8 @@ struct Node *change(struct Node *head, int room_number)
         {
             puts("input:> time ( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
+            while ('\n' != getchar())
+                ;
             if (strlen(buffer) > 19)
             {
                 puts("too long , again please");
@@ -233,6 +257,8 @@ struct Node *change(struct Node *head, int room_number)
         {
             puts("input:> time ( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
+            while ('\n' != getchar())
+                ;
             if (strlen(buffer) > 19)
             {
                 puts("too long , again please");
@@ -603,6 +629,7 @@ void viewList()
     printf("|3)--------search--------|\n");
     printf("|4)-------view all-------|\n");
     printf("|5)---------sort---------|\n");
+    printf("|6)--------change--------|\n");
     printf("|------------------------|\n");
     printf("|q)---------quit---------|\n");
 }

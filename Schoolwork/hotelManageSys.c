@@ -59,6 +59,9 @@ int main()
             sort(head);
             print_list(head);
             break;
+        case '6':
+            for_change(head);
+            break;
         case 'q':
             goto end;
         default:
