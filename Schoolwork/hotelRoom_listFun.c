@@ -62,73 +62,116 @@ struct Node *headDel(struct Node *head) // shao bing
     return head;
 }
 
-struct Node *destory(struct Node *head) // 销毁后 head 是 野指针
-{
-    while (headDel(head)->next)
-        ;
+// destroy() - destroys the linked list, freeing all of its elements 
+struct Node* destory(struct Node *head) {
+    // loop through the linked list and free each node
+    while (head->next != NULL) {
+        head = headDel(head);    
+    }
+    // free the last node, the head of the list
     free(head);
-    return head;
-}
-struct Node *find(struct Node *head, int room_number, bool *if_tail)
-{
+
+    // return a null pointer once done to show that all elements have been freed
+    return NULL;
+} 
+
+
+
+
+// This function searches a linked list for a node with the given room number
+struct Node *find(struct Node *head, int room_number, bool *if_tail) {
+    
+    // Initialize two temporary pointers to point to the head of the list and its "next" element
     struct Node *tmp1 = head;
     struct Node *tmp2 = head->next;
-    while ((tmp2) && tmp2->room->room_number != room_number)
-    {
+    
+    // Iterate through the list until tmp2 points to a node with the given room number or tmp2 is null
+    while ((tmp2) && tmp2->room->room_number != room_number) {
         tmp1 = tmp1->next;
         tmp2 = tmp2->next;
     }
-    if (!tmp2)
+    // If no node was found, return null
+    if (!tmp2) {
         return NULL;
-    else if (!(tmp2->next))
+    }
+    // Otherwise, check if tmp2 points to the tail node in the list (no "next" element). 
+    // If so, set the if_tail pointer to true.
+    else if (!(tmp2->next)) {
         *if_tail = true;
-    return tmp1;
-} // 返回找到节点的前一个节点 如是尾节点 则标识位为true 未找到返回 null
+    }
+    
+    // Return the pointer to the node preceding the one with the given room number
+    return head;
+}
+
+
 // 删除特定节点
-struct Node *delete(struct Node *head, int room_number)
+struct Node *delete(struct Node *head, int room_number) 
 {
     bool Tail = false;
     struct Node *tmp;
-    if (tmp = find(head, room_number, &Tail))
-        ;
+    if (tmp = find(head,room_number, &Tail))
+        ;  // Check whether we found the node in the list 
     else
     {
         puts("no found");
         return head;
     }
-    if (Tail)
+
+    if (Tail)  // If the node is at the end of the list
     {
-        free(tmp->next->room);
-        free(tmp->next);
-        tmp->next = NULL;
+        free(tmp->next->room);   // Free the node's data area
+        free(tmp->next);         // Free the node
+        tmp->next = NULL;     
     }
-    else
+    else   // If the node is not at the end of the list
     {
-        struct Node *tmp2 = tmp->next;
-        tmp->next = tmp->next->next;
-        free(tmp2->room);
-        free(tmp2);
+        struct Node *tmp2 = tmp->next;  // Store a reference to the node we want to delete
+        tmp->next = tmp->next->next;    // Set this node's pointer to the next next node 
+        free(tmp2->room);               // Free the data area of the deleted node
+        free(tmp2);                     // Free the deleted node itself
     }
-    return head;
-}
-struct Node *findForChange(struct Node *head, int room_number)
-{
-    bool a;
-    return find(head, room_number, &a);
+    return head;          // Return the head of the list
 }
 
+
+
+
+/**
+Finds the node in the linked list given by head, which has the room_number.
+@param head The head of the linked list to search.
+@param room_number The number to search for in the linked list.
+@return The node of the linked list which has the room_number parameter.
+*/
+struct Node *findForChange(struct Node *head, int room_number)
+{
+bool a;
+return find(head, room_number, &a);
+}
+
+
+//Adding comments for the code begins here
+/*  This function takes a pointer to the head of a linked list and
+    prompts the user for a room number. If the user enters -1 or invalid symbol,
+    the function exits (returns). Otherwise, it calls the "change" function 
+    to modify the node corresponding to the room number entered by the user */
 void for_change(struct Node *head)
 {
     puts("-1 or Invaild symbol will quit \ninput the target RoomNumber:>");
     int room_number;
     scanf("%d", &room_number);
+    // Read each character until a new line is encountered
     while ('\n' != getchar())
         ;
+    
+    // Check if the user entered "-1" as the room number
     if (room_number == -1)
         return;
     else
         change(head, room_number);
 }
+// adding comments ends here
+
 
 // 修改特定节点 // 带交互
 struct Node *change(struct Node *head, int room_number)
