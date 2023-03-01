@@ -440,6 +440,7 @@ int init()
     printf("----------------------------\n");
     printf("--------q for quit----------\n");
     char a;
+begin:
     scanf("%c", &a);
     while ('\n' != getchar())
         ;
@@ -452,7 +453,8 @@ int init()
         return 2;
     else
     {
-        puts("wrong num,again please");
+        goto begin;
+        // puts("wrong num,again please");
         // while (getchar() != '\n')
         ;
         return init();
