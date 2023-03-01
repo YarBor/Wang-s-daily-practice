@@ -146,8 +146,8 @@ struct Node *change(struct Node *head, int room_number)
     switch (choice)
     {
     case ROOM_NUMBER:
-        puts("input:> num or '-1'for quit");
-        int aa = 0;
+        puts("-1 or Invaild symbol will quit \ninput the target RoomNumber:>");
+        int aa = -1;
         scanf("%d", &aa);
         while ('\n' != getchar())
             ;
@@ -159,6 +159,7 @@ struct Node *change(struct Node *head, int room_number)
     case ROOM_TYPE:
         while (1)
         {
+        room_type_goto_because_buffer_out:
             puts("input:> string( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
             while ('\n' != getchar())
@@ -167,7 +168,8 @@ struct Node *change(struct Node *head, int room_number)
             {
                 puts("wrong type again please");
                 memset(buffer, 0, 64);
-                continue;
+                // continue;
+                goto room_type_goto_because_buffer_out;
             }
             else if (!(strcmp(buffer, "q")))
             {
@@ -207,8 +209,8 @@ struct Node *change(struct Node *head, int room_number)
     case ROOM_PRICE:
         while (1)
         {
-            double num;
-            puts("input:> number or '-1'for quit");
+            double num = 0;
+            puts("-1 or Invaild symbol will quit \ninput the target RoomNumber:>");
             scanf("%lf", &num);
             while ('\n' != getchar())
                 ;
@@ -216,6 +218,10 @@ struct Node *change(struct Node *head, int room_number)
             {
                 puts("wrong number , again please");
                 continue;
+            }
+            else if (0 == num)
+            {
+                puts("input number please");
             }
             else if (num == -1)
             {
@@ -231,7 +237,8 @@ struct Node *change(struct Node *head, int room_number)
     case CHECK_IN_TIME:
         while (1)
         {
-            puts("input:> time ( letters <= 19 ) or 'q'for quit");
+        room_IN_TIME_goto_because_buffer_out:
+            puts("input:> String of time ( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
             while ('\n' != getchar())
                 ;
@@ -239,7 +246,8 @@ struct Node *change(struct Node *head, int room_number)
             {
                 puts("too long , again please");
                 memset(buffer, 0, 64);
-                continue;
+                // continue;
+                goto room_IN_TIME_goto_because_buffer_out;
             }
             else if (!(strcmp(buffer, "q")))
             {
@@ -255,6 +263,7 @@ struct Node *change(struct Node *head, int room_number)
     case CHECK_OUT_TIME:
         while (1)
         {
+        room_OUT_TIME_goto_because_buffer_out:
             puts("input:> time ( letters <= 19 ) or 'q'for quit");
             scanf("%63s", buffer);
             while ('\n' != getchar())
@@ -263,7 +272,8 @@ struct Node *change(struct Node *head, int room_number)
             {
                 puts("too long , again please");
                 memset(buffer, 0, 64);
-                continue;
+                goto room_OUT_TIME_goto_because_buffer_out;
+                // continue;
             }
             else if (!(strcmp(buffer, "q")))
             {
@@ -285,6 +295,11 @@ struct Node *change(struct Node *head, int room_number)
 void print_list(struct Node *dummy)
 {
     struct Node *cur = dummy->next;
+    if (!cur)
+    {
+        puts("!No data!");
+        return;
+    }
     while (cur != NULL)
     {
         printf("Room Number: %d\n", cur->room->room_number);
@@ -357,7 +372,7 @@ begin:
             ;
     else
     {
-        puts("wrong num,again");
+        puts("wrong choice,again");
         goto begin;
     }
     for (struct Node *aaa = head->next; aaa != NULL; aaa = aaa->next)
@@ -636,32 +651,50 @@ void viewList()
 
 struct Node *add(struct Node *head)
 {
-    int room_number;               // 房号
+    int room_number = -1;          // 房号
     char room_type[20] = {0};      // 房间种类
-    int is_available;              // 是否居住
-    double room_price;             // 房间价格
+    int is_available = -1;         // 是否居住
+    double room_price = -1;        // 房间价格
     char check_in_time[20] = {0};  // 入住时间
     char check_out_time[20] = {0}; // 交房时间
+room_number_input_fail:
     printf("room_number:>");
     scanf("%d", &room_number);
     while ('\n' != getchar())
         ;
+    if (room_number == -1)
+    {
+        puts("wrong number,again");
+        goto room_number_input_fail;
+    }
 
     printf("room_type:>");
     scanf("%s", room_type);
     while ('\n' != getchar())
         ;
 
-    printf("is_avaliable:>");
+room_is_available_input_fail:
+    printf("is_avaliable(0/1):>");
     scanf("%d", &is_available);
-
     while ('\n' != getchar())
         ;
+    if (is_available != 0 && is_available != 1)
+    {
+        puts("wrong number,again");
+        goto room_is_available_input_fail;
+    }
+
+room_price_input_fail:
     printf("price:>");
     scanf("%lf", &room_price);
-
     while ('\n' != getchar())
         ;
+    if (room_price == -1)
+    {
+        puts("wrong number , again");
+        goto room_price_input_fail;
+    }
+
     printf("check_in_time:>");
     scanf("%s", check_in_time);
 

@@ -62,3 +62,4 @@ bool login(char *usrname, struct Node *head);
 bool singup(char *username);
 bool usrnameAndPassword(const char *usrname);
 
+void for_change(struct Node * head);
