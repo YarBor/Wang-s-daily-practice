@@ -73,7 +73,7 @@ struct Node *find(struct Node *head, int room_number, bool *if_tail)
 {
     struct Node *tmp1 = head;
     struct Node *tmp2 = head->next;
-    while (tmp2->room->room_number != room_number || (!tmp2))
+    while ((tmp2) && tmp2->room->room_number != room_number)
     {
         tmp1 = tmp1->next;
         tmp2 = tmp2->next;
@@ -285,8 +285,8 @@ int chooselist()
     puts("*************************\ninput:>");
     int a;
     scanf("%d", &a);
-    // //while (getchar() != '\n')
-    ;
+    while (getchar() != '\n')
+        ;
     return a;
 }
 
@@ -317,6 +317,23 @@ struct Node *sort(struct Node *head)
     int flag = chooselist();
     if (flag == -1)
         return head;
+    char for_order;
+
+begin:
+    puts("ascending OR descending?\n(1/2)[q to quit] :>");
+    scanf("%c", &for_order);
+    while ('\n' != getchar())
+        ;
+    if (for_order == '1' || for_order == '2' || for_order == 'q')
+        if (for_order == 'q')
+            return head;
+        else
+            ;
+    else
+    {
+        puts("wrong num,again");
+        goto begin;
+    }
     for (struct Node *aaa = head->next; aaa != NULL; aaa = aaa->next)
     {
         struct Node *a = head->next;
@@ -325,27 +342,36 @@ struct Node *sort(struct Node *head)
             switch (flag)
             {
             case ROOM_NUMBER:
-                if (a->room->room_number > aa->room->room_number)
+                if (for_order == '1' ? a->room->room_number > aa->room->room_number
+                                     : a->room->room_number < aa->room->room_number)
                     swap(a, aa);
                 break;
             case ROOM_TYPE:
-                if (strcmp(a->room->room_type, aa->room->room_type) <= 0)
+                if (for_order == '1' ? strcmp(a->room->room_type, aa->room->room_type) < 0
+                                     : strcmp(a->room->room_type, aa->room->room_type) > 0)
                     swap(a, aa);
                 break;
             case IS_AVAILABLE:
-                if (a->room->is_available < aa->room->is_available)
+                if (for_order == '1' ? a->room->is_available < aa->room->is_available
+                                     : a->room->is_available > aa->room->is_available)
                     swap(a, aa);
                 break;
             case ROOM_PRICE:
-                if (a->room->room_price > aa->room->room_price)
+
+                if (for_order == '1' ? a->room->room_price > aa->room->room_price
+                                     : a->room->is_available < aa->room->is_available)
+
                     swap(a, aa);
                 break;
             case CHECK_IN_TIME:
-                if (strcmp(a->room->check_in_time, aa->room->check_in_time) >= 0)
+                if (for_order == '1' ? strcmp(a->room->check_in_time, aa->room->check_in_time) > 0
+                                     : strcmp(a->room->check_in_time, aa->room->check_in_time) < 0)
+
                     swap(a, aa);
                 break;
             case CHECK_OUT_TIME:
-                if (strcmp(a->room->check_out_time, aa->room->check_out_time) >= 0)
+                if (for_order == '1' ? strcmp(a->room->check_out_time, aa->room->check_out_time) > 0
+                                     : strcmp(a->room->check_out_time, aa->room->check_out_time) < 0)
                     swap(a, aa);
                 break;
             default:
@@ -361,8 +387,10 @@ void search_print(struct Node *head)
     int num = -1;
     while (1)
     {
-        puts("-1 to quit\ninput roomNumber:>");
+        puts("-1 to quit___and___InvaildSymbol also quit\ninput roomNumber:>");
         scanf("%d", &num);
+        while ('\n' != getchar())
+            ;
         if (num == -1)
             return;
         struct Node *cur = findForChange(head, num);
@@ -474,6 +502,9 @@ bool usrnameAndPassword(const char *usrname)
         {
             puts("enter the passward:>");
             scanf("%s", buffer);
+            while ('\n' != getchar())
+                ;
+
             if (strcmp(buffer, password) == 0)
                 return true;
             else
@@ -481,6 +512,9 @@ bool usrnameAndPassword(const char *usrname)
                 puts("wrong ! 2 more times");
                 puts("enter the passward:>");
                 scanf("%s", buffer);
+                while ('\n' != getchar())
+                    ;
+
                 if (strcmp(buffer, password) == 0)
                     return true;
                 else
@@ -488,6 +522,9 @@ bool usrnameAndPassword(const char *usrname)
                     puts("wrong ! 1 more times");
                     puts("enter the passward:>");
                     scanf("%s", buffer);
+                    while ('\n' != getchar())
+                        ;
+
                     if (strcmp(buffer, password) == 0)
                         return true;
                     else
@@ -512,11 +549,17 @@ bool singup(char *username)
         return 0;
     puts("usrName :>");
     scanf("%s", buffer);
+    while ('\n' != getchar())
+        ;
+
     memcpy(username, buffer, 64);
     fwrite(buffer, 1, strlen(buffer), fd);
     fwrite(" ", 1, 1, fd);
     puts("password :>");
     scanf("%s", buffer);
+    while ('\n' != getchar())
+        ;
+
     fwrite(buffer, 1, strlen(buffer), fd);
     fwrite("\n", 1, 1, fd);
     fclose(fd);
@@ -527,6 +570,9 @@ bool login(char *usrname, struct Node *head)
 {
     puts("enter the usrname");
     scanf("%s", usrname);
+    while ('\n' != getchar())
+        ;
+
     if (usrnameAndPassword(usrname))
     {
         filein(usrname, head);
@@ -571,16 +617,33 @@ struct Node *add(struct Node *head)
     char check_out_time[20] = {0}; // 交房时间
     printf("room_number:>");
     scanf("%d", &room_number);
+    while ('\n' != getchar())
+        ;
+
     printf("room_type:>");
     scanf("%s", room_type);
+    while ('\n' != getchar())
+        ;
+
     printf("is_avaliable:>");
     scanf("%d", &is_available);
+
+    while ('\n' != getchar())
+        ;
     printf("price:>");
     scanf("%lf", &room_price);
+
+    while ('\n' != getchar())
+        ;
     printf("check_in_time:>");
     scanf("%s", check_in_time);
+
+    while ('\n' != getchar())
+        ;
     printf("check_out_time:>");
     scanf("%s", check_out_time);
 
+    while ('\n' != getchar())
+        ;
     return tailInsert(head, create_node(room_number, room_type, is_available, room_price, check_in_time, check_out_time));
 };

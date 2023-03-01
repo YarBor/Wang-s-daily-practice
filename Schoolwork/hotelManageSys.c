@@ -57,6 +57,7 @@ int main()
             break;
         case '5':
             sort(head);
+            print_list(head);
             break;
         case 'q':
             goto end;
