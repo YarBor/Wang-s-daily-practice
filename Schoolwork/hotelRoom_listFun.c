@@ -374,15 +374,30 @@ int chooselist()
     return a;
 }
 
+/**
+
+tailInsert - inserts node to the end of given linked list
+@head: pointer to the first node in linked list
+@node: pointer to the new node which should be appended
+Return: pointer to the head of modified list on success, NULL if fails
+*/
 struct Node *tailInsert(struct Node *head, struct Node *node)
 {
-    struct Node *tmp = head;
-    while (tmp->next)
-    {
-        tmp = tmp->next;
-    }
-    tmp->next = node;
-    return head;
+//create tmp pointer and assign head of list to it
+struct Node *tmp = head;
+
+// iterate over existing list until finds last element
+while (tmp->next)
+{
+tmp = tmp->next;
+}
+
+// set current last elements ->next pointer to point to new node
+tmp->next = node;
+
+//return address of head
+return head;
+
 }
 
 void swap(struct Node *a, struct Node *b)
@@ -524,23 +539,41 @@ struct Node *filein(char *usrname, struct Node *head)
     fclose(fd);
     return head;
 }
+/*
+上面的代码片段是用 C 编程语言编写的，用于从文件中提取数据。 struct Node *filein(char *usrname, struct Node *head) 是读取usrname指定文件的函数，usrname是指向包含文件名的字符数组的指针。
+在这个函数中，有一些变量存储获得的数据，如 room_number、room_type、is_available、room_price、check_in_time 和 check_out_time。
+之后，while 循环逐行遍历文件。 如果 is_available 的值为真，它会将 check_in_time 和 check_out_time 值存储在它们各自的字段中。 否则，它将它们设置为 0。
+最后，在该函数的末尾，它使用 tailInsert() 和 create_node() 函数将包含所有信息的节点推送到作为参数发送给该函数的链表的头部。 然后它关闭文件并返回头部。
+*/
+
+//This code writes the contents of a linked list to a file provided by the user 
 struct Node *fileout(char *usrname, struct Node *head)
 {
+    // Open the file for writing 
     FILE *fd;
     if (!(fd = fopen(usrname, "wb+")))
     {
+        // If unable to open let the user know
         puts("open file wrong");
         return head;
     }
+
+    // Create a tmp that will be used to traverse the linked list
     struct Node *tmp = head->next;
+
+    /* Loop through the linked list. 
+    Read each value and print it to the desired file. */
     while (tmp)
     {
         fprintf(fd, "%d %s %d %.2lf %s %s\n", tmp->room->room_number, tmp->room->room_type, tmp->room->is_available, tmp->room->room_price, tmp->room->check_in_time, tmp->room->check_out_time);
         tmp = tmp->next;
     }
+
+    // Close the file
     fclose(fd);
     return head;
 }
+
 
 int init()
 {
@@ -625,30 +658,51 @@ bool usrnameAndPassword(const char *usrname)
     return false;
 }
 
-bool singup(char *username)
-{
+// Add comment to singup function
+bool singup(char *username) {
+    // declare an array of 64 characters to store username and password input from the user
     char buffer[64] = {0};
+
+    // check if we can create the file usrnameAndPassword, if so open it in mode "ab+" (append binary plus for read/write)
     FILE *fd = fopen("usrnameAndPassword", "ab+");
     if (!fd)
         return 0;
+
+    // get username from user 
     puts("usrName :>");
     scanf("%s", buffer);
+    
+    // consume input until the end of line character is reached
     while ('\n' != getchar())
         ;
 
+    // copy the username given by the user into the username parameter
     memcpy(username, buffer, 64);
+    
+    // write the username into the file
     fwrite(buffer, 1, strlen(buffer), fd);
+
+    // write a space into the file
     fwrite(" ", 1, 1, fd);
+
+    // get password from user
     puts("password :>");
     scanf("%s", buffer);
+
+    // consume input until the end of line character is reached again
     while ('\n' != getchar())
         ;
 
+    // write the password into the file
     fwrite(buffer, 1, strlen(buffer), fd);
     fwrite("\n", 1, 1, fd);
+
+    // close the opened file
     fclose(fd);
+
     return 1;
 }
+
 
 bool login(char *usrname, struct Node *head)
 {
