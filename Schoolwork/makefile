@@ -13,7 +13,9 @@ begin :
 	rm usrnameAndPassword
 	touch usrnameAndPassword
 	rm HotelManageSys
-	make
+	make 
+	make clean
+	make rmdata
 
 clean :
 	rm *.o *.gch
