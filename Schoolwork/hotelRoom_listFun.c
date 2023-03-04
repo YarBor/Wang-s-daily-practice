@@ -62,48 +62,34 @@ struct Node *headDel(struct Node *head) // shao bing
     return head;
 }
 
-// destroy() - destroys the linked list, freeing all of its elements
 struct Node *destory(struct Node *head)
 {
-    // loop through the linked list and free each node
     while (head->next != NULL)
     {
         head = headDel(head);
     }
-    // free the last node, the head of the list
     free(head);
-
-    // return a null pointer once done to show that all elements have been freed
     return NULL;
 }
 
-// This function searches a linked list for a node with the given room number
 struct Node *find(struct Node *head, int room_number, bool *if_tail)
 {
-
-    // Initialize two temporary pointers to point to the head of the list and its "next" element
     struct Node *tmp1 = head;
     struct Node *tmp2 = head->next;
-
-    // Iterate through the list until tmp2 points to a node with the given room number or tmp2 is null
     while ((tmp2) && tmp2->room->room_number != room_number)
     {
         tmp1 = tmp1->next;
         tmp2 = tmp2->next;
     }
-    // If no node was found, return null
     if (!tmp2)
     {
         return NULL;
     }
-    // Otherwise, check if tmp2 points to the tail node in the list (no "next" element).
-    // If so, set the if_tail pointer to true.
     else if (!(tmp2->next))
     {
         *if_tail = true;
     }
 
-    // Return the pointer to the node preceding the one with the given room number
     return head;
 }
 
@@ -136,12 +122,6 @@ struct Node *delete(struct Node *head, int room_number)
     return head; // Return the head of the list
 }
 
-/**
-Finds the node in the linked list given by head, which has the room_number.
-@param head The head of the linked list to search.
-@param room_number The number to search for in the linked list.
-@return The node of the linked list which has the room_number parameter.
-*/
 struct Node *findForChange(struct Node *head, int room_number)
 {
     bool a;
@@ -149,26 +129,19 @@ struct Node *findForChange(struct Node *head, int room_number)
 }
 
 // Adding comments for the code begins here
-/*  This function takes a pointer to the head of a linked list and
-    prompts the user for a room number. If the user enters -1 or invalid symbol,
-    the function exits (returns). Otherwise, it calls the "change" function
-    to modify the node corresponding to the room number entered by the user */
 void for_change(struct Node *head)
 {
     puts("-1 or Invaild symbol will quit \ninput the target RoomNumber:>");
     int room_number;
     scanf("%d", &room_number);
-    // Read each character until a new line is encountered
     while ('\n' != getchar())
         ;
 
-    // Check if the user entered "-1" as the room number
     if (room_number == -1)
         return;
     else
         change(head, room_number);
 }
-// adding comments ends here
 
 // 修改特定节点 // 带交互
 struct Node *change(struct Node *head, int room_number)
@@ -223,7 +196,6 @@ struct Node *change(struct Node *head, int room_number)
         }
         break;
     case IS_AVAILABLE:
-        // scanf("%19s", tmp->room->room_type);
         puts("input:> Y/N or 'q'for quit");
         while (1)
         {
@@ -371,28 +343,14 @@ int chooselist()
     return a;
 }
 
-/**
-
-tailInsert - inserts node to the end of given linked list
-@head: pointer to the first node in linked list
-@node: pointer to the new node which should be appended
-Return: pointer to the head of modified list on success, NULL if fails
-*/
 struct Node *tailInsert(struct Node *head, struct Node *node)
 {
-    // create tmp pointer and assign head of list to it
     struct Node *tmp = head;
-
-    // iterate over existing list until finds last element
     while (tmp->next)
     {
         tmp = tmp->next;
     }
-
-    // set current last elements ->next pointer to point to new node
     tmp->next = node;
-
-    // return address of head
     return head;
 }
 
@@ -402,9 +360,6 @@ void swap(struct Node *a, struct Node *b)
     tmp.room = a->room;
     a->room = b->room;
     b->room = tmp.room;
-    // memcpy(&tmp, a, sizeof(struct Node));
-    // memcpy(a, b, sizeof(struct Node));
-    // memcpy(b, &tmp, sizeof(struct Node));
 }
 struct Node *sort(struct Node *head)
 {
@@ -507,33 +462,8 @@ void search_print(struct Node *head)
 
 struct Node *filein(char *usrname, struct Node *head)
 {
-    // FILE *fd;
-    // fd = fopen(usrname, "rb");
-    // int room_number;               // 房号
-    // char room_type[20] = {0};      // 房间种类
-    // int is_available;              // 是否居住
-    // double room_price;             // 房间价格
-    // char check_in_time[20] = {0};  // 入住时间
-    // char check_out_time[20] = {0}; // 交房时间
-    // while (EOF != fscanf(fd, "%d %s %d %lf",
-    //                      &room_number, room_type, &is_available,
-    //                      &room_price //, check_in_time, check_out_time))
-    //                      ))
-    // {
-    //     if (is_available)
-    //         fscanf(fd, "%s %s\n", check_in_time, check_out_time);
-    //     else
-    //     {
-    //         memset(check_in_time, 0, 20);
-    //         memset(check_out_time, 0, 20);
-    //     }
-    //     tailInsert(head, create_node(room_number, room_type,
-    //                                  is_available, room_price,
-    //                                  check_in_time, check_out_time));
-    // }
-    // fclose(fd);
 
-    FILE *fd = fopen(usrname, "rb");
+    FILE *fd = fopen(strcat(usrname,".data"), "rb");
     if (!fd)
     {
         puts("open file error");
@@ -545,7 +475,6 @@ struct Node *filein(char *usrname, struct Node *head)
         struct Node *node = (struct Node *)malloc(sizeof(struct Node));
         node->room = (struct Room *)malloc(sizeof(struct Room));
         node->next = NULL;
-        // fread(node->room, sizeof(struct Room), 1, fd);
         memcpy(node->room, buffer, sizeof(struct Room));
         tailInsert(head, node);
     }
@@ -553,14 +482,11 @@ struct Node *filein(char *usrname, struct Node *head)
     return head;
 }
 
-// This code writes the contents of a linked list to a file provided by the user
 struct Node *fileout(char *usrname, struct Node *head)
 {
-    // Open the file for writing
     FILE *fd;
-    if (!(fd = fopen(usrname, "wb")))
+    if (!(fd = fopen(strcat(usrname,".data"), "wb")))
     {
-        // If unable to open let the user know
         puts("open file wrong");
         return head;
     }
@@ -608,99 +534,64 @@ begin:
 
 bool usrnameAndPassword(const char *usrname)
 {
-    FILE *fd = fopen("usrnameAndPassword", "rb+");
-    char name[64] = {0};
-    char password[64] = {0};
-    char buffer[64] = {0};
-    bool flag = false;
-    while (EOF != fscanf(fd, "%s %s", name, password))
+    FILE *fd = fopen("usrnameAndPassword", "rb");
+    struct usrPassWord tmp;
+    int flag = 0;
+    char buffer[128];
+    while (fread(&tmp, sizeof(struct usrPassWord), 1, fd))
     {
-        if (strcmp(name, usrname) == 0)
+        if (strcmp(tmp.usrname, usrname) == 0)
         {
-            puts("enter the passward:>");
-            scanf("%s", buffer);
-            while ('\n' != getchar())
-                ;
-
-            if (strcmp(buffer, password) == 0)
-                return true;
-            else
+            flag = 1;
+            for (int a = 0; a < 3; a++)
             {
-                puts("wrong ! 2 more times");
-                puts("enter the passward:>");
+                puts("input passwords[letters < 63]:>");
                 scanf("%s", buffer);
-                while ('\n' != getchar())
-                    ;
-
-                if (strcmp(buffer, password) == 0)
+                if (strlen(buffer) > 63)
+                {
+                    printf("wrong passord , %d more times", 2 - a);
+                    continue;
+                }
+                else if (strcmp(buffer, tmp.password) == 0)
                     return true;
                 else
                 {
-                    puts("wrong ! 1 more times");
-                    puts("enter the passward:>");
-                    scanf("%s", buffer);
-                    while ('\n' != getchar())
-                        ;
-
-                    if (strcmp(buffer, password) == 0)
-                        return true;
-                    else
-                    {
-                        puts("wrong!");
-                        return false;
-                    }
+                    printf("wrong passord , %d more times", 2 - a);
+                    continue;
                 }
             }
         }
+    };
+    if(flag==0){
+        puts("wrong usrname");
     }
-    puts("wrong user name");
-    fclose(fd);
     return false;
 }
 
 // Add comment to singup function
 bool singup(char *username)
 {
-    // declare an array of 64 characters to store username and password input from the user
-    char buffer[64] = {0};
-
-    // check if we can create the file usrnameAndPassword, if so open it in mode "ab+" (append binary plus for read/write)
-    FILE *fd = fopen("usrnameAndPassword", "ab+");
+    char buffer[128] = {0};
+    struct usrPassWord a;
+    FILE *fd = fopen("usrnameAndPassword", "ab");
     if (!fd)
         return 0;
 
-    // get username from user
-    puts("usrName :>");
+    puts("usrName [letters < 63]:>");
     scanf("%s", buffer);
-
-    // consume input until the end of line character is reached
     while ('\n' != getchar())
         ;
-
-    // copy the username given by the user into the username parameter
     memcpy(username, buffer, 64);
+    memcpy(a.usrname, username, 64);
 
-    // write the username into the file
-    fwrite(buffer, 1, strlen(buffer), fd);
-
-    // write a space into the file
-    fwrite(" ", 1, 1, fd);
-
-    // get password from user
-    puts("password :>");
+    puts("password [letters < 63]:>");
     scanf("%s", buffer);
-
-    // consume input until the end of line character is reached again
     while ('\n' != getchar())
         ;
+    memcpy(a.password, buffer, 64);
 
-    // write the password into the file
-    fwrite(buffer, 1, strlen(buffer), fd);
-    fwrite("\n", 1, 1, fd);
-
-    // close the opened file
+    fwrite(&a, sizeof(struct usrPassWord), 1, fd);
     fclose(fd);
-
     return 1;
 }
 

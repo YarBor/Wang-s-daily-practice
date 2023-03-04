@@ -20,6 +20,13 @@ struct Room
   char check_in_time[20];  // 入住时间
   char check_out_time[20]; // 交房时间
 };
+struct usrPassWord
+{
+  char usrname[64];
+  char otherdata[16]; // unused
+  char password[64];
+  /* data */
+};
 
 struct Node
 {
