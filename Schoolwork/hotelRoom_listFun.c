@@ -1,11 +1,11 @@
 #include "hotelManageSys.h"
 
 // 定义链表节点结构体
-struct Node
-{
-    struct Room *room;
-    struct Node *next;
-};
+// struct Node
+// {
+//     struct Room *room;
+//     struct Node *next;
+// };
 
 // 定义房间结构体
 // struct Room {
@@ -62,80 +62,79 @@ struct Node *headDel(struct Node *head) // shao bing
     return head;
 }
 
-// destroy() - destroys the linked list, freeing all of its elements 
-struct Node* destory(struct Node *head) {
+// destroy() - destroys the linked list, freeing all of its elements
+struct Node *destory(struct Node *head)
+{
     // loop through the linked list and free each node
-    while (head->next != NULL) {
-        head = headDel(head);    
+    while (head->next != NULL)
+    {
+        head = headDel(head);
     }
     // free the last node, the head of the list
     free(head);
 
     // return a null pointer once done to show that all elements have been freed
     return NULL;
-} 
-
-
-
+}
 
 // This function searches a linked list for a node with the given room number
-struct Node *find(struct Node *head, int room_number, bool *if_tail) {
-    
+struct Node *find(struct Node *head, int room_number, bool *if_tail)
+{
+
     // Initialize two temporary pointers to point to the head of the list and its "next" element
     struct Node *tmp1 = head;
     struct Node *tmp2 = head->next;
-    
+
     // Iterate through the list until tmp2 points to a node with the given room number or tmp2 is null
-    while ((tmp2) && tmp2->room->room_number != room_number) {
+    while ((tmp2) && tmp2->room->room_number != room_number)
+    {
         tmp1 = tmp1->next;
         tmp2 = tmp2->next;
     }
     // If no node was found, return null
-    if (!tmp2) {
+    if (!tmp2)
+    {
         return NULL;
     }
-    // Otherwise, check if tmp2 points to the tail node in the list (no "next" element). 
+    // Otherwise, check if tmp2 points to the tail node in the list (no "next" element).
     // If so, set the if_tail pointer to true.
-    else if (!(tmp2->next)) {
+    else if (!(tmp2->next))
+    {
         *if_tail = true;
     }
-    
+
     // Return the pointer to the node preceding the one with the given room number
     return head;
 }
 
-
 // 删除特定节点
-struct Node *delete(struct Node *head, int room_number) 
+struct Node *delete(struct Node *head, int room_number)
 {
     bool Tail = false;
     struct Node *tmp;
-    if (tmp = find(head,room_number, &Tail))
-        ;  // Check whether we found the node in the list 
+    if (tmp = find(head, room_number, &Tail))
+        ; // Check whether we found the node in the list
     else
     {
         puts("no found");
         return head;
     }
 
-    if (Tail)  // If the node is at the end of the list
+    if (Tail) // If the node is at the end of the list
     {
-        free(tmp->next->room);   // Free the node's data area
-        free(tmp->next);         // Free the node
-        tmp->next = NULL;     
+        free(tmp->next->room); // Free the node's data area
+        free(tmp->next);       // Free the node
+        tmp->next = NULL;
     }
-    else   // If the node is not at the end of the list
+    else // If the node is not at the end of the list
     {
-        struct Node *tmp2 = tmp->next;  // Store a reference to the node we want to delete
-        tmp->next = tmp->next->next;    // Set this node's pointer to the next next node 
-        free(tmp2->room);               // Free the data area of the deleted node
-        free(tmp2);                     // Free the deleted node itself
+        struct Node *tmp2 = tmp->next; // Store a reference to the node we want to delete
+        tmp->next = tmp->next->next;   // Set this node's pointer to the next next node
+        free(tmp2->room);              // Free the data area of the deleted node
+        free(tmp2);                    // Free the deleted node itself
     }
-    return head;          // Return the head of the list
+    return head; // Return the head of the list
 }
-
-
-
 
 /**
 Finds the node in the linked list given by head, which has the room_number.
@@ -145,15 +144,14 @@ Finds the node in the linked list given by head, which has the room_number.
 */
 struct Node *findForChange(struct Node *head, int room_number)
 {
-bool a;
-return find(head, room_number, &a);
+    bool a;
+    return find(head, room_number, &a);
 }
 
-
-//Adding comments for the code begins here
+// Adding comments for the code begins here
 /*  This function takes a pointer to the head of a linked list and
     prompts the user for a room number. If the user enters -1 or invalid symbol,
-    the function exits (returns). Otherwise, it calls the "change" function 
+    the function exits (returns). Otherwise, it calls the "change" function
     to modify the node corresponding to the room number entered by the user */
 void for_change(struct Node *head)
 {
@@ -163,7 +161,7 @@ void for_change(struct Node *head)
     // Read each character until a new line is encountered
     while ('\n' != getchar())
         ;
-    
+
     // Check if the user entered "-1" as the room number
     if (room_number == -1)
         return;
@@ -171,7 +169,6 @@ void for_change(struct Node *head)
         change(head, room_number);
 }
 // adding comments ends here
-
 
 // 修改特定节点 // 带交互
 struct Node *change(struct Node *head, int room_number)
@@ -383,21 +380,20 @@ Return: pointer to the head of modified list on success, NULL if fails
 */
 struct Node *tailInsert(struct Node *head, struct Node *node)
 {
-//create tmp pointer and assign head of list to it
-struct Node *tmp = head;
+    // create tmp pointer and assign head of list to it
+    struct Node *tmp = head;
 
-// iterate over existing list until finds last element
-while (tmp->next)
-{
-tmp = tmp->next;
-}
+    // iterate over existing list until finds last element
+    while (tmp->next)
+    {
+        tmp = tmp->next;
+    }
 
-// set current last elements ->next pointer to point to new node
-tmp->next = node;
+    // set current last elements ->next pointer to point to new node
+    tmp->next = node;
 
-//return address of head
-return head;
-
+    // return address of head
+    return head;
 }
 
 void swap(struct Node *a, struct Node *b)
@@ -511,69 +507,73 @@ void search_print(struct Node *head)
 
 struct Node *filein(char *usrname, struct Node *head)
 {
-    FILE *fd;
-    fd = fopen(usrname, "rb");
-    int room_number;               // 房号
-    char room_type[20] = {0};      // 房间种类
-    int is_available;              // 是否居住
-    double room_price;             // 房间价格
-    char check_in_time[20] = {0};  // 入住时间
-    char check_out_time[20] = {0}; // 交房时间
+    // FILE *fd;
+    // fd = fopen(usrname, "rb");
+    // int room_number;               // 房号
+    // char room_type[20] = {0};      // 房间种类
+    // int is_available;              // 是否居住
+    // double room_price;             // 房间价格
+    // char check_in_time[20] = {0};  // 入住时间
+    // char check_out_time[20] = {0}; // 交房时间
+    // while (EOF != fscanf(fd, "%d %s %d %lf",
+    //                      &room_number, room_type, &is_available,
+    //                      &room_price //, check_in_time, check_out_time))
+    //                      ))
+    // {
+    //     if (is_available)
+    //         fscanf(fd, "%s %s\n", check_in_time, check_out_time);
+    //     else
+    //     {
+    //         memset(check_in_time, 0, 20);
+    //         memset(check_out_time, 0, 20);
+    //     }
+    //     tailInsert(head, create_node(room_number, room_type,
+    //                                  is_available, room_price,
+    //                                  check_in_time, check_out_time));
+    // }
+    // fclose(fd);
 
-    while (EOF != fscanf(fd, "%d %s %d %lf",
-                         &room_number, room_type, &is_available,
-                         &room_price //, check_in_time, check_out_time))
-                         ))
+    FILE *fd = fopen(usrname, "rb");
+    if (!fd)
     {
-        if (is_available)
-            fscanf(fd, "%s %s\n", check_in_time, check_out_time);
-        else
-        {
-            memset(check_in_time, 0, 20);
-            memset(check_out_time, 0, 20);
-        }
-        tailInsert(head, create_node(room_number, room_type,
-                                     is_available, room_price,
-                                     check_in_time, check_out_time));
+        puts("open file error");
+        exit(1);
+    }
+    char buffer[sizeof(struct Room)] = {0};
+    while (fread(buffer, sizeof(struct Room), 1, fd))
+    {
+        struct Node *node = (struct Node *)malloc(sizeof(struct Node));
+        node->room = (struct Room *)malloc(sizeof(struct Room));
+        node->next = NULL;
+        // fread(node->room, sizeof(struct Room), 1, fd);
+        memcpy(node->room, buffer, sizeof(struct Room));
+        tailInsert(head, node);
     }
     fclose(fd);
     return head;
 }
-/*
-上面的代码片段是用 C 编程语言编写的，用于从文件中提取数据。 struct Node *filein(char *usrname, struct Node *head) 是读取usrname指定文件的函数，usrname是指向包含文件名的字符数组的指针。
-在这个函数中，有一些变量存储获得的数据，如 room_number、room_type、is_available、room_price、check_in_time 和 check_out_time。
-之后，while 循环逐行遍历文件。 如果 is_available 的值为真，它会将 check_in_time 和 check_out_time 值存储在它们各自的字段中。 否则，它将它们设置为 0。
-最后，在该函数的末尾，它使用 tailInsert() 和 create_node() 函数将包含所有信息的节点推送到作为参数发送给该函数的链表的头部。 然后它关闭文件并返回头部。
-*/
 
-//This code writes the contents of a linked list to a file provided by the user 
+// This code writes the contents of a linked list to a file provided by the user
 struct Node *fileout(char *usrname, struct Node *head)
 {
-    // Open the file for writing 
+    // Open the file for writing
     FILE *fd;
-    if (!(fd = fopen(usrname, "wb+")))
+    if (!(fd = fopen(usrname, "wb")))
     {
         // If unable to open let the user know
         puts("open file wrong");
         return head;
     }
-
-    // Create a tmp that will be used to traverse the linked list
     struct Node *tmp = head->next;
-
-    /* Loop through the linked list. 
-    Read each value and print it to the desired file. */
     while (tmp)
     {
-        fprintf(fd, "%d %s %d %.2lf %s %s\n", tmp->room->room_number, tmp->room->room_type, tmp->room->is_available, tmp->room->room_price, tmp->room->check_in_time, tmp->room->check_out_time);
+        fwrite(tmp->room, sizeof(struct Room), 1, fd);
         tmp = tmp->next;
     }
 
-    // Close the file
     fclose(fd);
     return head;
 }
-
 
 int init()
 {
@@ -659,7 +659,8 @@ bool usrnameAndPassword(const char *usrname)
 }
 
 // Add comment to singup function
-bool singup(char *username) {
+bool singup(char *username)
+{
     // declare an array of 64 characters to store username and password input from the user
     char buffer[64] = {0};
 
@@ -668,17 +669,17 @@ bool singup(char *username) {
     if (!fd)
         return 0;
 
-    // get username from user 
+    // get username from user
     puts("usrName :>");
     scanf("%s", buffer);
-    
+
     // consume input until the end of line character is reached
     while ('\n' != getchar())
         ;
 
     // copy the username given by the user into the username parameter
     memcpy(username, buffer, 64);
-    
+
     // write the username into the file
     fwrite(buffer, 1, strlen(buffer), fd);
 
@@ -702,7 +703,6 @@ bool singup(char *username) {
 
     return 1;
 }
-
 
 bool login(char *usrname, struct Node *head)
 {

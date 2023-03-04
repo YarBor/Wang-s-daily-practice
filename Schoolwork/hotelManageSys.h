@@ -21,6 +21,12 @@ struct Room
   char check_out_time[20]; // 交房时间
 };
 
+struct Node
+{
+    struct Room *room;
+    struct Node *next;
+};
+
 // 创建哨兵节点
 struct Node *create_dummy_node();
 // 创建房间节点
