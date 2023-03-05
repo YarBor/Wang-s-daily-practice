@@ -59,18 +59,23 @@ void print_list(struct Node *dummy);
 
 // 打印菜单
 int chooselist();
+void viewList();
 
 struct Node *tailInsert(struct Node *head, struct Node *node);
+
 void search_print(struct Node *head);
+
 struct Node *filein(char *usrname, struct Node *head);
 
 struct Node *fileout(char *usrname, struct Node *head);
+
 struct Node *sort(struct Node *head);
 
-int init();
-struct Node *add(struct Node *head);
-void viewList();
 struct Node *INIT(char *usrname, struct Node *head);
+int init();
+
+struct Node *add(struct Node *head);
+
 bool login(char *usrname, struct Node *head);
 bool singup(char *username);
 bool usrnameAndPassword(const char *usrname);
