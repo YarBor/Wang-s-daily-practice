@@ -15,6 +15,7 @@ begin :
 	rm HotelManageSys
 	make 
 	make clean
+	
 	make rmdata
 
 clean :
