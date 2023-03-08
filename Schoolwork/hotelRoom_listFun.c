@@ -359,6 +359,7 @@ void swap(struct Node *a, struct Node *b)
     struct Node tmp;
     tmp.room = a->room;
     a->room = b->room;
+    
     b->room = tmp.room;
 }
 struct Node *sort(struct Node *head)

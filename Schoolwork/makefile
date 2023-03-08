@@ -1,7 +1,10 @@
 HotelManageSys : hotelManageSys.o hotelRoom_listFun.o
 	cc  hotelManageSys.o hotelRoom_listFun.o -o HotelManageSys 
 
-cc = gcc
+cc := gcc
+ogch := $(shell echo *.o *.gch)
+data := $(shell echo *.data)
+
 
 hotelManageSys.o : hotelManageSys.c hotelManageSys.h 
 	cc -c hotelManageSys.c hotelManageSys.h
@@ -18,8 +21,9 @@ begin :
 	
 	make rmdata
 
+
 clean :
-	rm *.o *.gch
+	rm $(ogch)
 
 rmdata : 
-	rm *.data 
+	rm $(data) 

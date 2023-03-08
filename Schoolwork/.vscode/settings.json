@@ -2,5 +2,12 @@
     "files.associations": {
         "hotelmanagesys.h": "c",
         "test.h": "c"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/wang/Desktop/object/repository/Wang-s-daily-practice/Schoolwork",
+            "binaryPath": "/home/wang/Desktop/object/repository/Wang-s-daily-practice/Schoolwork/HotelManageSys",
+            "binaryArgs": []
+        }
+    ]
 }
