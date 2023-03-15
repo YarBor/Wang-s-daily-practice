@@ -1,3 +1,4 @@
+
 #define _CRT_SECURE_NO_WARNINGS 1		
 #include <stdio.h>
 #include <string.h>
@@ -6,11 +7,11 @@ int panduan_weishu(int i);
 void dayin(int i, int n);
 void dayin1(int i,int n);
 //void dayin2(int i,int n);
-//打印1-10000的对称数/11211.121.151.656
+//??印1-10000?亩猿???/11211.121.151.656
 int main()
 {
 	int last;
-	printf("打印 1 -- ？的对称数 （121，11211，14341）\n");
+	printf("??印 1 -- ???亩猿??? ??121??11211??14341??\n");
 	scanf("%d", &last);
 	int i = 1;
 	for (; i <= last; i++)
