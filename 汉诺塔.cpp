@@ -1,7 +1,7 @@
-   #define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//ººÅµËþ
-int han_nuo(int n) //²â¶¨µÚn²ã×ªÒÆµ½cÖùµÄÏêÏ¸²½Êý
+//??Åµ??
+int han_nuo(int n) //?â¶¨??n??×ª?Æµ?c??????Ï¸????
 {
 	int k;
 	if (n <= 2)
@@ -14,12 +14,12 @@ int han_nuo(int n) //²â¶¨µÚn²ã×ªÒÆµ½cÖùµÄÏêÏ¸²½Êý
 	}
 	return n;
 }
-#define ab "´ÓAµ½B"
-#define ac "´ÓAµ½C"
-#define bc "´ÓBµ½C"
-#define ca "´ÓCµ½A"
-#define cb "´ÓCµ½B"
-#define ba "´ÓBµ½A"
+#define ab "??A??B"
+#define ac "??A??C"
+#define bc "??B??C"
+#define ca "??C??A"
+#define cb "??C??B"
+#define ba "??B??A"
 void bu_zhou_ab(int k);
 void bu_zhou_ac(int k);
 void bu_zhou_bc(int k);
@@ -118,7 +118,7 @@ void bu_zhou_ab(int k)
 	}
 
 }
-void bu_zhou_a(int k)//´òÓ¡nµ½n-1²ãÊ±µÄ²½Öè
+void bu_zhou_a(int k)//??Ó¡n??n-1??Ê±?Ä²???
 {
 	if (k == 2)
 	{
@@ -131,7 +131,7 @@ void bu_zhou_a(int k)//´òÓ¡nµ½n-1²ãÊ±µÄ²½Öè
 		bu_zhou_bc(k - 1);
 	}
 }
-void bu_zhou0(int n)//N µÈÓÚ2Ê± µÚÒ»¶þ²ãÒÆ¶¯²½Öè
+void bu_zhou0(int n)//N ????2Ê± ??Ò»?????Æ¶?????
 {
 	printf("ab ");
 	printf("ac ");
@@ -139,13 +139,13 @@ void bu_zhou0(int n)//N µÈÓÚ2Ê± µÚÒ»¶þ²ãÒÆ¶¯²½Öè
 }
 int main()
 {
-	int n;//¼ÙÉèÓÐn²ã
-	printf("¹²ÓÐ__¸öÔ²ÅÌÔÚººÅµËþÉÏ£¿\n");
+	int n;//??????n??
+	printf("????__??Ô²???Úº?Åµ???Ï£?\n");
 	scanf("%d", &n);
 	int m = han_nuo(n);
-	printf("%d²ãººÅµËþÐèÒª%d²½\n", n, m);
-	printf("¼ÙÉèÓÐÃûÎªa b c µÄ3¸öÖù×Ó£¬ÓÐ%d¸öÅÌÔÚaÖùÉÏ£¬µÈ´ýÒÆ¶¯\n", n);
-	printf("ÏÂÃæÊÇÏêÏ¸²½Öè");
+	printf("%d?ãººÅµ????Òª%d??\n", n, m);
+	printf("????????Îªa b c ??3?????Ó£???%d??????a???Ï£??È´??Æ¶?\n", n);
+	printf("????????Ï¸????");
 	bu_zhou_a(n);
 	return 0;
 }
