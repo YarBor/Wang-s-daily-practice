@@ -1,5 +1,4 @@
 #include"strbuf.h"
-
 void strbuf_init(struct strbuf*sb,size_t alloc){
     sb->len=0;
     sb->alloc=alloc;
