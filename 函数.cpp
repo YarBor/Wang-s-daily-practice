@@ -1,5 +1,4 @@
 //#define _CRT_SECURE_NO_WARNINGS 1		
-
 #include "Í·.h"
 
 void print(struct person* point[], int size_)
@@ -20,7 +19,7 @@ void menu()
 	printf("*****3.scan    4.revise**\n");
 	printf("*****5.sort    0.out****\n");
 	printf("*************************\n");
-	puts("ÇëÊäÈë>:");
+	puts("??????>:");
 }
 void add_one(struct person* point)
 {
@@ -138,3 +137,7 @@ int to_revise(struct person** point, int size_)
 	}
 	puts("done!");
 }
+
+
+
+
