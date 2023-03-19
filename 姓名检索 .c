@@ -1,11 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS 1		
 #include<stdio.h>
 #include <string.h>
-//#define renshu 4;
 int main()
 {
-	char arr[][64] = { {"ÕÅÈı"} ,{"ÀîËÄ"}, {"ÍõÎå"}, {"Ë­Ë­Ë­"} };
-	char shuru[] = "ÕÅÈıÀîËÄ HHH";//ÊäÈëµÄÃû×Ö ÒòÎª²»»áÊäÈëºº×Ö ¼Ù¶¨ÕâÊÇÊäÈë
+	char arr[][64] = { {"????"} ,{"????"}, {"????"}, {"Ë­Ë­Ë­"} };
+	char shuru[] = "???????? HHH";//?????????? ??Îª???????ëºº?? ?Ù¶?????????
 	for (int i = 0; i<=(sizeof(arr)/sizeof(arr[0])-1); i++)
 	{
 		if (strstr(shuru, arr[i]) == NULL)
