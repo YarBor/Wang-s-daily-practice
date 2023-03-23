@@ -1,5 +1,4 @@
 #define _CRT_SECURE_NO_WARNINGS 1		
-
 void menu();
 #include<stdio.h>
 #include<string.h>
