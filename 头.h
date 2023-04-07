@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1		
-void menu();
 #include<stdio.h>
+void menu();
 #include<string.h>
 #include<stdlib.h>
 #include<assert.h>
