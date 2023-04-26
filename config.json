@@ -1,0 +1,16 @@
+{
+   "open_ai_api_key": "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",
+   "model": "gpt-3.5-turbo",
+   "proxy": "10.30.0.170:47890",
+   "single_chat_prefix": ["/" , "//"],
+   "single_chat_reply_prefix": "[鸭勃] ",
+   "group_chat_prefix": ["/"],
+   "group_name_white_list": ["ALL_GROUP"],
+   "image_create_prefix": ["sdfsafsdfasdfsdfasdf"],
+   "speech_recognition": true,
+   "voice_reply_voice": false,
+   "conversation_max_tokens": 1024,
+   "expires_in_seconds": 3600,
+   "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，使用中文与人交流。在遇到编程问题时会给出具体的demo"
+ }
+
