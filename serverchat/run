@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# 获取第一个参数（要执行的程序名）
+program=$1
+
+# 如果没有传入参数，则输出错误信息并退出
+if [ -z "$program" ]; then
+  echo "Error: Please specify the program to run."
+  exit 1
+fi
+
+# 记录开始时间
+start_time=$(date +%s)
+
+# 执行程序
+./$program
+
+# 记录结束时间
+end_time=$(date +%s)
+
+# 输出运行时间
+echo "Program finished in $((end_time - start_time)) seconds."
+
+# 执行 cat 命令
+cat "/tmp/$program.INFO"
