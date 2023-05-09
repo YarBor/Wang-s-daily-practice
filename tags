@@ -1,0 +1,1161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION_TO_ANSWER_JOIN_GROUP	clientchat/option.hh	61;"	d
+ACTION_TO_ANSWER_JOIN_GROUP	serverchat/option.hh	61;"	d
+ACTION_TO_ANSWER_MAKE_FRIEND	clientchat/option.hh	46;"	d
+ACTION_TO_ANSWER_MAKE_FRIEND	serverchat/option.hh	46;"	d
+ACTION_TO_CHECK_USERNAME_PASSWORD	clientchat/option.hh	6;"	d
+ACTION_TO_CHECK_USERNAME_PASSWORD	serverchat/option.hh	6;"	d
+ACTION_TO_DEAD_NOTIFICATION	clientchat/option.hh	142;"	d
+ACTION_TO_DEAD_NOTIFICATION	serverchat/option.hh	142;"	d
+ACTION_TO_DOWNLOAD_GROUP_DATA	clientchat/option.hh	92;"	d
+ACTION_TO_DOWNLOAD_GROUP_DATA	serverchat/option.hh	92;"	d
+ACTION_TO_DOWNLOAD_USER_DATA	clientchat/option.hh	85;"	d
+ACTION_TO_DOWNLOAD_USER_DATA	serverchat/option.hh	85;"	d
+ACTION_TO_DOWNLOAD_USER_DATA_SUCCESS	clientchat/option.hh	89;"	d
+ACTION_TO_DOWNLOAD_USER_DATA_SUCCESS	serverchat/option.hh	89;"	d
+ACTION_TO_ERROR	clientchat/option.hh	3;"	d
+ACTION_TO_ERROR	serverchat/option.hh	3;"	d
+ACTION_TO_FALSE	clientchat/option.hh	4;"	d
+ACTION_TO_FALSE	serverchat/option.hh	4;"	d
+ACTION_TO_INIT_DATA	clientchat/option.hh	148;"	d
+ACTION_TO_INIT_DATA	serverchat/option.hh	148;"	d
+ACTION_TO_INIT_DATA_FALSE	clientchat/option.hh	150;"	d
+ACTION_TO_INIT_DATA_FALSE	serverchat/option.hh	150;"	d
+ACTION_TO_INIT_DATA_SUCCESS	clientchat/option.hh	149;"	d
+ACTION_TO_INIT_DATA_SUCCESS	serverchat/option.hh	149;"	d
+ACTION_TO_MAKE_GROUP	clientchat/option.hh	144;"	d
+ACTION_TO_MAKE_GROUP	serverchat/option.hh	144;"	d
+ACTION_TO_MANAGE_GROUP_MEMBER	clientchat/option.hh	117;"	d
+ACTION_TO_MANAGE_GROUP_MEMBER	serverchat/option.hh	117;"	d
+ACTION_TO_MANAGE_GROUP_MEMBER_FAILE	clientchat/option.hh	120;"	d
+ACTION_TO_MANAGE_GROUP_MEMBER_FAILE	serverchat/option.hh	120;"	d
+ACTION_TO_RECV_FILE_DATA	clientchat/option.hh	107;"	d
+ACTION_TO_RECV_FILE_DATA	serverchat/option.hh	107;"	d
+ACTION_TO_RECV_GROUP_MESSAGE	clientchat/option.hh	199;"	d
+ACTION_TO_RECV_GROUP_MESSAGE	serverchat/option.hh	199;"	d
+ACTION_TO_RECV_USER_MESSAGE	clientchat/option.hh	198;"	d
+ACTION_TO_RECV_USER_MESSAGE	serverchat/option.hh	198;"	d
+ACTION_TO_REMIND_GROUP_MEMBER	clientchat/option.hh	140;"	d
+ACTION_TO_REMIND_GROUP_MEMBER	serverchat/option.hh	140;"	d
+ACTION_TO_REMIND_USER_MEMBER	clientchat/option.hh	134;"	d
+ACTION_TO_REMIND_USER_MEMBER	serverchat/option.hh	134;"	d
+ACTION_TO_REQUEST_JOIN_GROUP	clientchat/option.hh	53;"	d
+ACTION_TO_REQUEST_JOIN_GROUP	serverchat/option.hh	53;"	d
+ACTION_TO_REQUEST_MAKE_FRIEND	clientchat/option.hh	38;"	d
+ACTION_TO_REQUEST_MAKE_FRIEND	serverchat/option.hh	38;"	d
+ACTION_TO_REQUEST_RENAME_GROUP	clientchat/option.hh	76;"	d
+ACTION_TO_REQUEST_RENAME_GROUP	serverchat/option.hh	76;"	d
+ACTION_TO_REQUEST_RENAME_USER	clientchat/option.hh	69;"	d
+ACTION_TO_REQUEST_RENAME_USER	serverchat/option.hh	69;"	d
+ACTION_TO_SEND_FILE_DATA	clientchat/option.hh	99;"	d
+ACTION_TO_SEND_FILE_DATA	serverchat/option.hh	99;"	d
+ACTION_TO_SEND_MESSAGE_TO_GROUP	clientchat/option.hh	30;"	d
+ACTION_TO_SEND_MESSAGE_TO_GROUP	serverchat/option.hh	30;"	d
+ACTION_TO_SEND_MESSAGE_TO_USER	clientchat/option.hh	22;"	d
+ACTION_TO_SEND_MESSAGE_TO_USER	serverchat/option.hh	22;"	d
+ACTION_TO_SEND_MSG_TO_GROUP_SUCCESS	clientchat/option.hh	35;"	d
+ACTION_TO_SEND_MSG_TO_GROUP_SUCCESS	serverchat/option.hh	35;"	d
+ACTION_TO_SEND_MSG_TO_USER_FALSE	clientchat/option.hh	24;"	d
+ACTION_TO_SEND_MSG_TO_USER_FALSE	serverchat/option.hh	24;"	d
+ACTION_TO_SEND_MSG_TO_USER_SUCCESS	clientchat/option.hh	27;"	d
+ACTION_TO_SEND_MSG_TO_USER_SUCCESS	serverchat/option.hh	27;"	d
+ACTION_TO_SET_USERNAME_PASSWORD	clientchat/option.hh	15;"	d
+ACTION_TO_SET_USERNAME_PASSWORD	serverchat/option.hh	15;"	d
+ANSWER_JOIN_GROUP_SUCCESS	clientchat/option.hh	65;"	d
+ANSWER_JOIN_GROUP_SUCCESS	serverchat/option.hh	65;"	d
+ANSWER_MAKE_FRIEND_REQUEST_SUCCESS	clientchat/option.hh	50;"	d
+ANSWER_MAKE_FRIEND_REQUEST_SUCCESS	serverchat/option.hh	50;"	d
+ANSWER_TO_ANSWER_JOIN_GROUP	clientchat/option.hh	203;"	d
+ANSWER_TO_ANSWER_JOIN_GROUP	serverchat/option.hh	203;"	d
+ANSWER_TO_ANSWER_MAKE_FRIEND	clientchat/option.hh	202;"	d
+ANSWER_TO_ANSWER_MAKE_FRIEND	serverchat/option.hh	202;"	d
+ANSWER_TO_CHECK_USERNAME_PASSWORD	clientchat/option.hh	201;"	d
+ANSWER_TO_CHECK_USERNAME_PASSWORD	serverchat/option.hh	201;"	d
+ANSWER_TO_CHECK_USERNAME_PASSWORD_SUCCESS	clientchat/option.hh	12;"	d
+ANSWER_TO_CHECK_USERNAME_PASSWORD_SUCCESS	serverchat/option.hh	12;"	d
+ANSWER_TO_REQUEST_JOIN_GROUP	clientchat/option.hh	205;"	d
+ANSWER_TO_REQUEST_JOIN_GROUP	serverchat/option.hh	205;"	d
+ANSWER_TO_REQUEST_MAKE_FRIEND	clientchat/option.hh	207;"	d
+ANSWER_TO_REQUEST_MAKE_FRIEND	serverchat/option.hh	207;"	d
+BIGSPOON_PER_TEASPOON	SECTION_3/3_8.c	5;"	d	file:
+BLACK	my_ls.h	23;"	d
+BLACK	my_ls_10.22/my_ls.h	14;"	d
+BLACK	my_ls_10.22/my_ls_2.0/my_ls.h	14;"	d
+BLACK	my_ls_2.0/my_ls.h	14;"	d
+BUFFER_SIZE	clientchat/client.hh	48;"	d
+BUFFER_SIZE	serverchat/server.hh	43;"	d
+BUFFER_SIZE	wang_string.cc	6;"	d	file:
+Begin	clientchat/view.hh	/^    Begin,$/;"	e	enum:WIN_STATE
+CHECK_IN_TIME	Schoolwork/hotelManageSys.h	11;"	d
+CHECK_IN_TIME	hotelManageSys.h	11;"	d
+CHECK_OUT_TIME	Schoolwork/hotelManageSys.h	12;"	d
+CHECK_OUT_TIME	hotelManageSys.h	12;"	d
+CHECK_USERNAME_PASSWORD_TO_SERVER	clientchat/option.hh	212;"	d
+CHECK_USERNAME_PASSWORD_TO_SERVER	serverchat/option.hh	212;"	d
+COMMAND	serverchat/action.cc	8;"	d	file:
+CUP_PER_OUNCE	SECTION_3/3_8.c	3;"	d	file:
+CalculatePrimesUpTo	Test_gtest/prime_tables.h	/^  void CalculatePrimesUpTo(int max) {$/;"	f	class:PreCalculatedPrimeTable
+Ctrl_Data	clientchat/client.hh	/^class Ctrl_Data$/;"	c
+Ctrl_Data_On_Ctrl	clientchat/client.hh	/^class Ctrl_Data_On_Ctrl : public Ctrl_Data$/;"	c
+Ctrl_Data_On_View	clientchat/client.hh	/^class Ctrl_Data_On_View : private Ctrl_Data$/;"	c
+Ctrl_Work_Queue	clientchat/thread_Recv_fr_Net.cc	/^Work_Queue *Ctrl_Work_Queue = nullptr;$/;"	v
+Ctrl_Work_Queue_ptr	clientchat/client_main.cc	/^Work_Queue *Ctrl_Work_Queue_ptr = nullptr;$/;"	v
+DATA_UPDATE	clientchat/option.hh	216;"	d
+DATA_UPDATE	serverchat/option.hh	216;"	d
+DOWNLOAD_GROUP_DATA_SUCCESS	clientchat/option.hh	96;"	d
+DOWNLOAD_GROUP_DATA_SUCCESS	serverchat/option.hh	96;"	d
+Data_On_Ctrl_ptr	clientchat/client_main.cc	/^Ctrl_Data_On_Ctrl *Data_On_Ctrl_ptr;$/;"	v
+Data_On_View_ptr	clientchat/client_main.cc	/^Ctrl_Data_On_View *Data_On_View_ptr;$/;"	v
+EPOLL_EVENTS_NUM	clientchat/client.hh	47;"	d
+EPOLL_EVENTS_NUM	serverchat/server.hh	42;"	d
+End	clientchat/view.hh	/^    End$/;"	e	enum:WIN_STATE
+FILE_NOT_FOUND	clientchat/option.hh	110;"	d
+FILE_NOT_FOUND	serverchat/option.hh	110;"	d
+FILE_UPLOAD_SUCCESS	clientchat/option.hh	104;"	d
+FILE_UPLOAD_SUCCESS	serverchat/option.hh	104;"	d
+FLUSH_WINDOW	clientchat/option.hh	215;"	d
+FLUSH_WINDOW	serverchat/option.hh	215;"	d
+FRIEND_SIGN_OUT	clientchat/option.hh	204;"	d
+FRIEND_SIGN_OUT	serverchat/option.hh	204;"	d
+FUNCTION_NUMS	clientchat/option.hh	1;"	d
+FUNCTION_NUMS	serverchat/option.hh	1;"	d
+Factorial	Test_gtest/sample1.cc	/^int Factorial(int n) {$/;"	f
+Friend_Chat	clientchat/view.hh	/^    Friend_Chat,$/;"	e	enum:WIN_STATE
+GLOG_ERROR	clientchat/client.hh	76;"	d
+GLOG_ERROR	serverchat/server.hh	71;"	d
+GLOG_FATAL	clientchat/client.hh	89;"	d
+GLOG_FATAL	serverchat/server.hh	84;"	d
+GLOG_INFO	clientchat/client.hh	50;"	d
+GLOG_INFO	serverchat/server.hh	45;"	d
+GLOG_WARNING	clientchat/client.hh	63;"	d
+GLOG_WARNING	serverchat/server.hh	58;"	d
+GOOGLETEST_SAMPLES_PRIME_TABLES_H_	Test_gtest/prime_tables.h	35;"	d
+GOOGLETEST_SAMPLES_SAMPLE1_H_	Test_gtest/sample1.h	33;"	d
+GREEN	my_ls.h	27;"	d
+GREEN	my_ls_10.22/my_ls.h	18;"	d
+GREEN	my_ls_10.22/my_ls_2.0/my_ls.h	18;"	d
+GREEN	my_ls_2.0/my_ls.h	18;"	d
+Group_Chat	clientchat/view.hh	/^    Group_Chat,$/;"	e	enum:WIN_STATE
+Group_Data	clientchat/view.hh	/^    Group_Data,$/;"	e	enum:WIN_STATE
+Group_Manager	clientchat/view.hh	/^    Group_Manager,$/;"	e	enum:group_level
+Group_Member	clientchat/view.hh	/^    Group_Member = 10,$/;"	e	enum:group_level
+Group_Owner	clientchat/view.hh	/^    Group_Owner$/;"	e	enum:group_level
+HAS_REMIND_IN_GRUOP	clientchat/option.hh	33;"	d
+HAS_REMIND_IN_GRUOP	serverchat/option.hh	33;"	d
+Handle_Ctrl_Job	clientchat/thread_Talk_to_User.cc	/^int Handle_Ctrl_Job(job_in_Work_Queue *job)$/;"	f
+Handle_User_Input	clientchat/thread_Talk_to_User.cc	/^int Handle_User_Input(std::string *message)$/;"	f
+INIT	Schoolwork/hotelRoom_listFun.c	/^struct Node *INIT(char *usrname, struct Node *head)$/;"	f
+INIT	serverchat/server.hh	/^    bool INIT(const char *IP, const char *port)$/;"	f	class:server_listen_socket
+IS_AVAILABLE	Schoolwork/hotelManageSys.h	9;"	d
+IS_AVAILABLE	hotelManageSys.h	9;"	d
+IsPrime	Test_gtest/sample1.cc	/^bool IsPrime(int n) {$/;"	f
+Is_changed	clientchat/view.hh	/^    bool Is_changed()$/;"	f	class:Window
+L_BLACK	my_ls.h	24;"	d
+L_BLACK	my_ls_10.22/my_ls.h	15;"	d
+L_BLACK	my_ls_10.22/my_ls_2.0/my_ls.h	15;"	d
+L_BLACK	my_ls_2.0/my_ls.h	15;"	d
+L_GREEN	my_ls.h	28;"	d
+L_GREEN	my_ls_10.22/my_ls.h	19;"	d
+L_GREEN	my_ls_10.22/my_ls_2.0/my_ls.h	19;"	d
+L_GREEN	my_ls_2.0/my_ls.h	19;"	d
+L_RED	my_ls.h	26;"	d
+L_RED	my_ls_10.22/my_ls.h	17;"	d
+L_RED	my_ls_10.22/my_ls_2.0/my_ls.h	17;"	d
+L_RED	my_ls_2.0/my_ls.h	17;"	d
+ListNode	testC++/源.cpp	/^  struct ListNode {$/;"	s	file:
+MAKE_GROUP_FALSE	clientchat/option.hh	145;"	d
+MAKE_GROUP_FALSE	serverchat/option.hh	145;"	d
+MAKE_GROUP_SUCCESS	clientchat/option.hh	146;"	d
+MAKE_GROUP_SUCCESS	serverchat/option.hh	146;"	d
+MALLOC	string.h	3;"	d
+MANAGE_DELETE_FROM_GROUP_SUCCESS	clientchat/option.hh	131;"	d
+MANAGE_DELETE_FROM_GROUP_SUCCESS	serverchat/option.hh	131;"	d
+MANAGE_DELETE_MANAGER_FROM_GROUP_SUCCESS	clientchat/option.hh	128;"	d
+MANAGE_DELETE_MANAGER_FROM_GROUP_SUCCESS	serverchat/option.hh	128;"	d
+MANAGE_JOIN_GROUP_SUCCESS	clientchat/option.hh	127;"	d
+MANAGE_JOIN_GROUP_SUCCESS	serverchat/option.hh	127;"	d
+MANAGE_MANAGER_IN_GROUP_SUCCESS	clientchat/option.hh	129;"	d
+MANAGE_MANAGER_IN_GROUP_SUCCESS	serverchat/option.hh	129;"	d
+MANAGE_SETUP_MANAGER_FROM_GROUP_SUCCESS	clientchat/option.hh	130;"	d
+MANAGE_SETUP_MANAGER_FROM_GROUP_SUCCESS	serverchat/option.hh	130;"	d
+MAX1	testC/test_of_Linux_22.c	2;"	d	file:
+MAX2	testC/test_of_Linux_22.c	3;"	d	file:
+MAX_NUM_THREADS	Test_qsort/Test_QuichSortWithPthread.c	5;"	d	file:
+MAX_NUM_THREADS	testC/Test_QuichSortWithPthread.c	5;"	d	file:
+MAX_THREAD_NUM	clientchat/client.hh	46;"	d
+MAX_THREAD_NUM	serverchat/server.hh	41;"	d
+MUBIAO	testC++/源.cpp	2;"	d	file:
+MYSQL_FAL_AND_RESET	serverchat/action.cc	17;"	d	file:
+Manage_Friend	clientchat/view.hh	/^    Manage_Friend, \/\/ 加好友$/;"	e	enum:WIN_STATE
+Manage_Group	clientchat/view.hh	/^    Manage_Group,$/;"	e	enum:WIN_STATE
+Manage_Self	clientchat/view.hh	/^    Manage_Self,$/;"	e	enum:WIN_STATE
+MySql	serverchat/server.hh	/^    MySql() : buffer_size(BUFFER_SIZE), buffer(NULL), result(NULL), row_count_now(0), row_size(0), row(NULL)$/;"	f	class:MySql
+MySql	serverchat/server.hh	/^class MySql$/;"	c
+My_shared_mutex	serverchat/server.hh	/^class My_shared_mutex$/;"	c
+My_thread_pools_ptr	serverchat/main.cc	/^thread_pool *My_thread_pools_ptr;$/;"	v
+My_user_list	serverchat/main.cc	/^userlist My_user_list; \/\/ 缓存在线用户，使用map 以 id · user 的 kv 形式保存$/;"	v
+N	Test_qsort/Test_QuickSort.c	5;"	d	file:
+N	testC/Test_QuickSort.c	5;"	d	file:
+NEW_MEMBER_JOIN_GROUP	clientchat/option.hh	67;"	d
+NEW_MEMBER_JOIN_GROUP	serverchat/option.hh	67;"	d
+NONE	my_ls.h	22;"	d
+NONE	my_ls_10.22/my_ls.h	13;"	d
+NONE	my_ls_10.22/my_ls_2.0/my_ls.h	13;"	d
+NONE	my_ls_2.0/my_ls.h	13;"	d
+NOTIFY_FRIEND_NEW_NAME	clientchat/option.hh	200;"	d
+NOTIFY_FRIEND_NEW_NAME	serverchat/option.hh	200;"	d
+NOTIFY_GROUP_NEW_NAME	clientchat/option.hh	206;"	d
+NOTIFY_GROUP_NEW_NAME	serverchat/option.hh	206;"	d
+NOTIFY_MEMBER_RE_GROUP_NAME_SQL_FALSE	clientchat/option.hh	79;"	d
+NOTIFY_MEMBER_RE_GROUP_NAME_SQL_FALSE	serverchat/option.hh	79;"	d
+NOT_FIND_IN_CHECK	clientchat/option.hh	9;"	d
+NOT_FIND_IN_CHECK	serverchat/option.hh	9;"	d
+NOT_FIND_IN_JOIN_GROUP	clientchat/option.hh	56;"	d
+NOT_FIND_IN_JOIN_GROUP	serverchat/option.hh	56;"	d
+NO_SOCK_MORE	clientchat/option.hh	112;"	d
+NO_SOCK_MORE	serverchat/option.hh	112;"	d
+Node	Schoolwork/hotelManageSys.h	/^struct Node$/;"	s
+Node	testC/hotelRoom_listFun.c	/^struct Node$/;"	s	file:
+Notices	clientchat/view.hh	/^    Notices,$/;"	e	enum:WIN_STATE
+Notices_mutex	clientchat/client.hh	/^    std::mutex Notices_mutex;$/;"	m	class:filesystem
+OUNCE_PER_BIGSPOON	SECTION_3/3_8.c	4;"	d	file:
+OnTheFlyPrimeTable	Test_gtest/prime_tables.h	/^class OnTheFlyPrimeTable : public PrimeTable {$/;"	c
+PINT_PER_CUP	SECTION_3/3_8.c	2;"	d	file:
+PreCalculatedPrimeTable	Test_gtest/prime_tables.h	/^  explicit PreCalculatedPrimeTable(int max)$/;"	f	class:PreCalculatedPrimeTable
+PreCalculatedPrimeTable	Test_gtest/prime_tables.h	/^class PreCalculatedPrimeTable : public PrimeTable {$/;"	c
+PrimeTable	Test_gtest/prime_tables.h	/^class PrimeTable {$/;"	c
+Print_Socket_addr	serverchat/fun.cc	/^void Print_Socket_addr(const struct sockaddr *address, FILE *stream = stdin)$/;"	f
+R	my_ls.h	/^bool R = 0;$/;"	v
+R	my_ls_10.22/my_ls.h	/^bool R = 1;$/;"	v
+R	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool R = 0;$/;"	v
+R	my_ls_2.0/my_ls.c	/^bool R = 0;$/;"	v
+REALLOC	string.h	4;"	d
+RECV_ANSWER_JOIN_GROUP	clientchat/option.hh	44;"	d
+RECV_ANSWER_JOIN_GROUP	serverchat/option.hh	44;"	d
+RECV_MAKE_FRIEND_REQUEST	clientchat/option.hh	43;"	d
+RECV_MAKE_FRIEND_REQUEST	serverchat/option.hh	43;"	d
+RECV_REQUEST_TO_ANSWER_JOIN_GROUP	clientchat/option.hh	66;"	d
+RECV_REQUEST_TO_ANSWER_JOIN_GROUP	serverchat/option.hh	66;"	d
+RED	my_ls.h	25;"	d
+RED	my_ls_10.22/my_ls.h	16;"	d
+RED	my_ls_10.22/my_ls_2.0/my_ls.h	16;"	d
+RED	my_ls_2.0/my_ls.h	16;"	d
+REMIND_USER_SUCCESS	clientchat/option.hh	137;"	d
+REMIND_USER_SUCCESS	serverchat/option.hh	137;"	d
+REQUEST_JOIN_GROUP_SUCCESS	clientchat/option.hh	58;"	d
+REQUEST_JOIN_GROUP_SUCCESS	serverchat/option.hh	58;"	d
+REQUEST_MAKE_FRIEND_SUCCESS	clientchat/option.hh	42;"	d
+REQUEST_MAKE_FRIEND_SUCCESS	serverchat/option.hh	42;"	d
+RE_GROUP_NAME_SQL_FALSE	clientchat/option.hh	78;"	d
+RE_GROUP_NAME_SQL_FALSE	serverchat/option.hh	78;"	d
+RE_GROUP_NAME_SQL_FALSE_IN_NOTIFY	clientchat/option.hh	80;"	d
+RE_GROUP_NAME_SQL_FALSE_IN_NOTIFY	serverchat/option.hh	80;"	d
+RE_GROUP_NAME_SUCCESS	clientchat/option.hh	82;"	d
+RE_GROUP_NAME_SUCCESS	serverchat/option.hh	82;"	d
+ROOM_NUMBER	Schoolwork/hotelManageSys.h	7;"	d
+ROOM_NUMBER	hotelManageSys.h	7;"	d
+ROOM_PRICE	Schoolwork/hotelManageSys.h	10;"	d
+ROOM_PRICE	hotelManageSys.h	10;"	d
+ROOM_TYPE	Schoolwork/hotelManageSys.h	8;"	d
+ROOM_TYPE	hotelManageSys.h	8;"	d
+ROOT	clientchat/view.hh	32;"	d
+Room	Schoolwork/hotelManageSys.h	/^struct Room$/;"	s
+Room	hotelManageSys.h	/^struct Room$/;"	s
+SALES_DATA_H	Sales_data__C++Primer/Sales_data.h	2;"	d
+SALES_DATA_H	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	2;"	d
+SAVEFILE_SUCCESS	clientchat/option.hh	114;"	d
+SAVEFILE_SUCCESS	serverchat/option.hh	114;"	d
+SENDFILE_ERROR	clientchat/option.hh	111;"	d
+SENDFILE_ERROR	serverchat/option.hh	111;"	d
+SEND_GROUP_MESSAGE_TO_SERVER	clientchat/option.hh	211;"	d
+SEND_GROUP_MESSAGE_TO_SERVER	serverchat/option.hh	211;"	d
+SEND_USER_MESSAGE_TO_SERVER	clientchat/option.hh	210;"	d
+SEND_USER_MESSAGE_TO_SERVER	serverchat/option.hh	210;"	d
+SERVER_CONNECT_TO_RECV_FILE_ERROR	clientchat/option.hh	101;"	d
+SERVER_CONNECT_TO_RECV_FILE_ERROR	clientchat/option.hh	109;"	d
+SERVER_CONNECT_TO_RECV_FILE_ERROR	serverchat/option.hh	101;"	d
+SERVER_CONNECT_TO_RECV_FILE_ERROR	serverchat/option.hh	109;"	d
+SERVER_HEAD	serverchat/server.hh	2;"	d
+SET_USERNAME_PASSWORD_SUCCESS	clientchat/option.hh	19;"	d
+SET_USERNAME_PASSWORD_SUCCESS	serverchat/option.hh	19;"	d
+SET_USERNAME_PASSWORD_TO_SERVER	clientchat/option.hh	213;"	d
+SET_USERNAME_PASSWORD_TO_SERVER	serverchat/option.hh	213;"	d
+SQL_ERROE_IN_CHECK	clientchat/option.hh	8;"	d
+SQL_ERROE_IN_CHECK	serverchat/option.hh	8;"	d
+SQL_ERROE_IN_SEND_MSG_TO_FRIEND	clientchat/option.hh	25;"	d
+SQL_ERROE_IN_SEND_MSG_TO_FRIEND	serverchat/option.hh	25;"	d
+SQL_ERROE_IN_SEND_MSG_TO_GROUP	clientchat/option.hh	32;"	d
+SQL_ERROE_IN_SEND_MSG_TO_GROUP	serverchat/option.hh	32;"	d
+SQL_ERROR_IN_ANSWER_JOIN_GROUP	clientchat/option.hh	63;"	d
+SQL_ERROR_IN_ANSWER_JOIN_GROUP	serverchat/option.hh	63;"	d
+SQL_ERROR_IN_ANSWER_MAKE_FRIEND	clientchat/option.hh	48;"	d
+SQL_ERROR_IN_ANSWER_MAKE_FRIEND	serverchat/option.hh	48;"	d
+SQL_ERROR_IN_DOWNLOAD_GROUP_DATA	clientchat/option.hh	94;"	d
+SQL_ERROR_IN_DOWNLOAD_GROUP_DATA	serverchat/option.hh	94;"	d
+SQL_ERROR_IN_DOWNLOAD_USER_DATA	clientchat/option.hh	87;"	d
+SQL_ERROR_IN_DOWNLOAD_USER_DATA	serverchat/option.hh	87;"	d
+SQL_ERROR_IN_MANAGER_GROUP_MEMBERS	clientchat/option.hh	119;"	d
+SQL_ERROR_IN_MANAGER_GROUP_MEMBERS	serverchat/option.hh	119;"	d
+SQL_ERROR_IN_REQUEST_JOIN_GROUP	clientchat/option.hh	55;"	d
+SQL_ERROR_IN_REQUEST_JOIN_GROUP	serverchat/option.hh	55;"	d
+SQL_ERROR_IN_REQUEST_MAKE_FRIEND	clientchat/option.hh	40;"	d
+SQL_ERROR_IN_REQUEST_MAKE_FRIEND	serverchat/option.hh	40;"	d
+SQL_ERROR_IN_REQUEST_RENAME	clientchat/option.hh	71;"	d
+SQL_ERROR_IN_REQUEST_RENAME	serverchat/option.hh	71;"	d
+SQL_ERROR_IN_SEND_FILE_DATA	clientchat/option.hh	102;"	d
+SQL_ERROR_IN_SEND_FILE_DATA	serverchat/option.hh	102;"	d
+SQL_ERROR_IN_SET	clientchat/option.hh	17;"	d
+SQL_ERROR_IN_SET	serverchat/option.hh	17;"	d
+SQL_ERROR_MANAGE_DELETE_FROM_GROUP_FALSE	clientchat/option.hh	122;"	d
+SQL_ERROR_MANAGE_DELETE_FROM_GROUP_FALSE	serverchat/option.hh	122;"	d
+SQL_ERROR_MANAGE_DELETE_MANAGER_FROM_GROUP_FALSE	clientchat/option.hh	125;"	d
+SQL_ERROR_MANAGE_DELETE_MANAGER_FROM_GROUP_FALSE	serverchat/option.hh	125;"	d
+SQL_ERROR_MANAGE_JOIN_GROUP_FALSE	clientchat/option.hh	121;"	d
+SQL_ERROR_MANAGE_JOIN_GROUP_FALSE	serverchat/option.hh	121;"	d
+SQL_ERROR_MANAGE_MANAGER_IN_GROUP_FALSE	clientchat/option.hh	123;"	d
+SQL_ERROR_MANAGE_MANAGER_IN_GROUP_FALSE	serverchat/option.hh	123;"	d
+SQL_ERROR_MANAGE_SETUP_MANAGER_FROM_GROUP_FALSE	clientchat/option.hh	124;"	d
+SQL_ERROR_MANAGE_SETUP_MANAGER_FROM_GROUP_FALSE	serverchat/option.hh	124;"	d
+SQL_ERROR_REMIND_USER_FALSE	clientchat/option.hh	136;"	d
+SQL_ERROR_REMIND_USER_FALSE	serverchat/option.hh	136;"	d
+Sales_data	Sales_data__C++Primer/Sales_data.cpp	/^Sales_data::Sales_data(std::istream &is)$/;"	f	class:Sales_data
+Sales_data	Sales_data__C++Primer/Sales_data.h	/^		Sales_data(const std::string &s):bookNo(s){}$/;"	f	class:Sales_data
+Sales_data	Sales_data__C++Primer/Sales_data.h	/^		Sales_data(const std::string &s,unsigned n,double p):bookNo(s),units_sold(n),revenue(p*n){}$/;"	f	class:Sales_data
+Sales_data	Sales_data__C++Primer/Sales_data.h	/^class Sales_data{$/;"	c
+Sales_data	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.cpp	/^Sales_data::Sales_data(std::istream &is)$/;"	f	class:Sales_data
+Sales_data	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		Sales_data(const std::string &s):bookNo(s){}$/;"	f	class:Sales_data
+Sales_data	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		Sales_data(const std::string &s,unsigned n,double p):bookNo(s),units_sold(n),revenue(p*n){}$/;"	f	class:Sales_data
+Sales_data	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^class Sales_data{$/;"	c
+ServerConnection_sock	clientchat/client.hh	/^    ServerConnection_sock(std::string ip, std::string port) : ip(ip), port(port) { connect(); };$/;"	f	class:ServerConnection_sock
+ServerConnection_sock	clientchat/client.hh	/^class ServerConnection_sock$/;"	c
+Set_windows_map	clientchat/view.hh	/^void Set_windows_map()$/;"	f
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(FactorialTest, Negative) {$/;"	f	namespace:__anon2
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(FactorialTest, Positive) {$/;"	f	namespace:__anon2
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(FactorialTest, Zero) { EXPECT_EQ(1, Factorial(0)); }$/;"	f	namespace:__anon2
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(IsPrimeTest, Negative) {$/;"	f	namespace:__anon2
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(IsPrimeTest, Positive) {$/;"	f	namespace:__anon2
+TEST	Test_gtest/sample1_unittest.cc	/^TEST(IsPrimeTest, Trivial) {$/;"	f	namespace:__anon2
+THRESHOLD	Test_qsort/Test_QuichSortWithPthread.c	6;"	d	file:
+THRESHOLD	testC/Test_QuichSortWithPthread.c	6;"	d	file:
+Thread_Recv_fr_Net_begin_fun	clientchat/thread_Recv_fr_Net.cc	/^void Thread_Recv_fr_Net_begin_fun()$/;"	f
+Thread_Talk_to_User_begin_fun	clientchat/thread_Talk_to_User.cc	/^void Thread_Talk_to_User_begin_fun()$/;"	f
+USER_RENAME_SUCCESS	clientchat/option.hh	73;"	d
+USER_RENAME_SUCCESS	serverchat/option.hh	73;"	d
+WIN_STATE	clientchat/view.hh	/^enum WIN_STATE$/;"	g
+WRONG_PASSWORD	clientchat/option.hh	10;"	d
+WRONG_PASSWORD	serverchat/option.hh	10;"	d
+Window	clientchat/view.hh	/^    Window(Window &source, win_stat target_stat) : stat_ref(this->stat), user_id_ref(user_id),$/;"	f	class:Window
+Window	clientchat/view.hh	/^    Window(nlohmann::json user_cache,$/;"	f	class:Window
+Window	clientchat/view.hh	/^class Window \/\/ stack 元素$/;"	c
+Work_Queue	clientchat/client.hh	/^    Work_Queue(bool i) : read_fd(pipe[0]), write_fd(pipe[1]), is_need_lock(i)$/;"	f	class:Work_Queue
+Work_Queue	clientchat/client.hh	/^class Work_Queue \/\/ 会很多线程可见$/;"	c
+Y	testC/test_of_Linux_22.c	5;"	d	file:
+YEAR	testC/test_of_Linux_22.c	4;"	d	file:
+_3_1	SECTION_3/3_1.c	/^void _3_1()$/;"	f
+_3_2	SECTION_3/3_2.c	/^void _3_2()$/;"	f
+_3_4	SECTION_3/3_4.c	/^void _3_4()$/;"	f
+_3_5	SECTION_3/3_5.c	/^void _3_5()$/;"	f
+_3_6	SECTION_3/3_6.c	/^void _3_6()$/;"	f
+_3_7	SECTION_3/3_7.c	/^void _3_7()$/;"	f
+_CRT_SECURE_NO_WARNINGS	string.cpp	1;"	d	file:
+_CRT_SECURE_NO_WARNINGS	testC++/qsort + struct .cpp	1;"	d	file:
+_CRT_SECURE_NO_WARNINGS	testC++/汉诺塔.cpp	1;"	d	file:
+_CRT_SECURE_NO_WARNINGS	testC/姓名检索 .c	1;"	d	file:
+_CRT_SECURE_NO_WARNINGS	testC/打印对称数.c	2;"	d	file:
+_CRT_SECURE_NO_WARNINGS	头.h	1;"	d
+_arr	string.h	/^  char *_arr;$/;"	m	struct:string
+_capacity	string.h	/^  int _capacity;$/;"	m	struct:string
+_fd	clientchat/client.hh	/^    int _fd() const { return to_client_socket_fd; }$/;"	f	class:user_sk
+_fd	serverchat/server.hh	/^    const int _fd() const { return server_listen_socket_fd; };$/;"	f	class:server_listen_socket
+_fd	serverchat/server.hh	/^    int _fd() const { return to_client_socket_fd; }$/;"	f	class:socket_connect_to_client
+_size	string.h	/^  int _size;$/;"	m	struct:string
+a	my_ls.h	/^bool a = 0;$/;"	v
+a	my_ls_10.22/my_ls.h	/^bool a = 0;$/;"	v
+a	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool a = 0;$/;"	v
+a	my_ls_2.0/my_ls.c	/^bool a = 0;$/;"	v
+a	testC++/源.cpp	/^  struct ListNode a = { 1,&b };$/;"	v	typeref:struct:ListNode
+ab	testC++/汉诺塔.cpp	17;"	d	file:
+ac	testC++/汉诺塔.cpp	18;"	d	file:
+action	serverchat/server.hh	/^    size_t action;$/;"	m	struct:item_of_works
+add	Sales_data__C++Primer/Sales_data.cpp	/^Sales_data add(const Sales_data &lhs, const Sales_data &rhs )$/;"	f
+add	Schoolwork/hotelRoom_listFun.c	/^struct Node *add(struct Node *head)$/;"	f
+add	Test_gtest/Test_gtest.cc	/^int add(int lhs, int rhs) { return lhs + rhs; }$/;"	f
+add	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.cpp	/^Sales_data add(const Sales_data &lhs, const Sales_data &rhs )$/;"	f
+add	头.h	/^	add,$/;"	e	enum:xuanxiang
+add_enter	clientchat/client.hh	/^    int add_enter(std::string chatid, const std::string &name,$/;"	f	class:filesystem
+add_one	testC++/函数.cpp	/^void add_one(struct person* point)$/;"	f
+address_Glog	serverchat/main.cc	/^void address_Glog(struct sockaddr_in const *const sa, int flag) \/\/ flag 1 LINK , 2 unLINK$/;"	f
+alloc	C语言的动态扩容/head.h	/^  int alloc;   \/\/当前缓冲区（字符串）容量$/;"	m	struct:strbuf
+answer_join_group	serverchat/action.cc	/^int answer_join_group(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+answer_make_friend	serverchat/action.cc	/^int answer_make_friend(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+arr	Test_qsort/Test_QuichSortWithPthread.c	/^int arr[1000];$/;"	v
+arr	testC/Test_QuichSortWithPthread.c	/^int arr[1000];$/;"	v
+assign	string.cpp	/^string &string::assign(const char *p) {$/;"	f	class:string
+assign	string.cpp	/^string &string::assign(const char *p, int len) {$/;"	f	class:string
+assign	string.cpp	/^string &string::assign(const char *p, int pos, int len) {$/;"	f	class:string
+assign	string.cpp	/^string &string::assign(int count, char a) {$/;"	f	class:string
+assign	wang_string.cc	/^  string &assign(const char *p) { return assign(p, strlen(p)); }$/;"	f	class:string
+assign	wang_string.cc	/^  string &assign(const char *p, int len) {$/;"	f	class:string
+assign	wang_string.cc	/^  string &assign(const char *p, int pos, int len) {$/;"	f	class:string
+assign	wang_string.cc	/^  string &assign(int count, char a) {$/;"	f	class:string
+assign	wang_string.cc	/^  string &assign(string &other) { return this->operator=(other); }$/;"	f	class:string
+avg_price	Sales_data__C++Primer/Sales_data.h	/^		double avg_price() const{return units_sold ? revenue\/units_sold : 0;}$/;"	f	class:Sales_data
+avg_price	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		double avg_price() const{return units_sold ? revenue\/units_sold : 0;}$/;"	f	class:Sales_data
+b	testC++/源.cpp	/^  struct ListNode b = { 2,&c };$/;"	v	typeref:struct:ListNode
+ba	testC++/汉诺塔.cpp	22;"	d	file:
+back	Test_ofC++Primer/test.cc	/^std::string & strBlob::back(){$/;"	f	class:strBlob
+back_push	Test_ofC++Primer/test.cc	/^    void back_push(std::string value) { return data->push_back(value); }$/;"	f	class:strBlob
+bc	testC++/汉诺塔.cpp	19;"	d	file:
+before_begin	clientchat/thread_Talk_to_User.cc	/^bool before_begin(Work_Queue &Ctrl_Work_Queue, Work_Queue &queue_btw_Ctrl_View)$/;"	f
+bookNo	Sales_data__C++Primer/Sales_data.h	/^		std::string bookNo;$/;"	m	class:Sales_data
+bookNo	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		std::string bookNo;$/;"	m	class:Sales_data
+bu_zhou0	testC++/汉诺塔.cpp	/^void bu_zhou0(int n)\/\/N ????2ʱ ??һ?????ƶ?????$/;"	f
+bu_zhou_a	testC++/汉诺塔.cpp	/^void bu_zhou_a(int k)\/\/??ӡn??n-1??ʱ?Ĳ???$/;"	f
+bu_zhou_ab	testC++/汉诺塔.cpp	/^void bu_zhou_ab(int k)$/;"	f
+bu_zhou_ac	testC++/汉诺塔.cpp	/^void bu_zhou_ac(int k)$/;"	f
+bu_zhou_ba	testC++/汉诺塔.cpp	/^void bu_zhou_ba(int k)$/;"	f
+bu_zhou_bc	testC++/汉诺塔.cpp	/^void bu_zhou_bc(int k)$/;"	f
+bu_zhou_ca	testC++/汉诺塔.cpp	/^void bu_zhou_ca(int k)$/;"	f
+bu_zhou_cb	testC++/汉诺塔.cpp	/^void bu_zhou_cb(int k)$/;"	f
+buf	C语言的动态扩容/head.h	/^  char *buf;   \/\/缓冲区（字符串）$/;"	m	struct:strbuf
+buffer	clientchat/client.hh	/^    char *buffer;$/;"	m	class:Work_Queue
+buffer	clientchat/client.hh	/^    char buffer[1024];$/;"	m	class:filesystem
+buffer	serverchat/server.hh	/^    char *buffer;       \/\/ 用于存储转义后字符串的缓冲区指针$/;"	m	class:MySql
+buffer	wang_string.cc	/^  char *buffer = NULL;$/;"	m	class:string	file:
+buffer_size	serverchat/server.hh	/^    size_t buffer_size; \/\/ 缓冲区大小$/;"	m	class:MySql
+c	testC++/源.cpp	/^  struct ListNode c = { 3,&d };$/;"	v	typeref:struct:ListNode
+c_str	wang_string.cc	/^  char const *c_str() const { return buffer; };$/;"	f	class:string
+ca	testC++/汉诺塔.cpp	20;"	d	file:
+cb	testC++/汉诺塔.cpp	21;"	d	file:
+cc	Schoolwork/makefile	/^cc := gcc$/;"	m
+cc	serverchat/makefile	/^cc = clang++$/;"	m
+change	Schoolwork/hotelRoom_listFun.c	/^struct Node *change(struct Node *head, int room_number)$/;"	f
+change	testC/hotelRoom_listFun.c	/^struct Node *change(struct Node *head, int room_number)$/;"	f
+channel	app.py	/^        channel = channel_factory.create_channel("wx")$/;"	v
+chat_data_cache	clientchat/client.hh	/^    std::stringstream chat_data_cache;$/;"	m	class:filesystem
+chatid_to_filename	clientchat/client.hh	/^    std::string chatid_to_filename(std::string chatid) \/\/ returns left value$/;"	f	class:filesystem
+chatid_to_filename	clientchat/client.hh	/^inline std::string chatid_to_filename(std::string chatid)$/;"	f
+check	Test_ofC++Primer/test.cc	/^void strBlob::check(size_type i, const std::string &msg) const$/;"	f	class:strBlob
+check_in_time	Schoolwork/hotelManageSys.h	/^  char check_in_time[20];  \/\/ 入住时间$/;"	m	struct:Room
+check_in_time	hotelManageSys.h	/^  char check_in_time[20];  \/\/ 入住时间$/;"	m	struct:Room
+check_out_time	Schoolwork/hotelManageSys.h	/^  char check_out_time[20]; \/\/ 交房时间$/;"	m	struct:Room
+check_out_time	hotelManageSys.h	/^  char check_out_time[20]; \/\/ 交房时间$/;"	m	struct:Room
+check_username_password	serverchat/action.cc	/^int check_username_password(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+chooselist	Schoolwork/hotelRoom_listFun.c	/^int chooselist()$/;"	f
+chooselist	testC/hotelRoom_listFun.c	/^int chooselist()$/;"	f
+clear	clientchat/view.hh	/^    void clear()$/;"	f	struct:friend_data
+clear	clientchat/view.hh	/^    void clear()$/;"	f	struct:group_data
+clear_window	clientchat/view.hh	4;"	d
+client	serverchat/server.hh	/^    socket_connect_to_client *client = nullptr;$/;"	m	struct:user
+client_address	clientchat/client.hh	/^    struct sockaddr_in client_address;$/;"	m	class:user_sk	typeref:struct:user_sk::sockaddr_in
+client_address	serverchat/server.hh	/^    struct sockaddr_in client_address;$/;"	m	class:socket_connect_to_client	typeref:struct:socket_connect_to_client::sockaddr_in
+client_read_mutex	clientchat/client.hh	/^    std::mutex client_read_mutex;  \/\/ 防止多个线程对同一socket进行 读$/;"	m	class:user_sk
+client_read_mutex	serverchat/server.hh	/^    std::mutex client_read_mutex;  \/\/ 防止多个线程对同一socket进行 读$/;"	m	class:socket_connect_to_client
+client_write_mutex	clientchat/client.hh	/^    std::mutex client_write_mutex; \/\/ 防止多个线程对同一socket进行 写$/;"	m	class:user_sk
+client_write_mutex	serverchat/server.hh	/^    std::mutex client_write_mutex; \/\/ 防止多个线程对同一socket进行 写$/;"	m	class:socket_connect_to_client
+close_fd	clientchat/client.hh	/^    void close_fd()$/;"	f	class:user_sk
+close_fd	serverchat/server.hh	/^    void close_fd()$/;"	f	class:socket_connect_to_client
+cmp	testC++/qsort + struct .cpp	/^int cmp(const void* a, const  void* b) $/;"	f
+cmp1	testC++/qsort + struct .cpp	/^int cmp1(const void* a, const void* b)$/;"	f
+combine	Sales_data__C++Primer/Sales_data.cpp	/^Sales_data& Sales_data::combine(const Sales_data &item)$/;"	f	class:Sales_data
+combine	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.cpp	/^Sales_data& Sales_data::combine(const Sales_data &item)$/;"	f	class:Sales_data
+conf	config.py	/^def conf():$/;"	f
+config	config.py	/^config = {}$/;"	v
+connect	clientchat/client.hh	/^    bool connect()$/;"	f	class:ServerConnection_sock
+consumer	testC/生产者消费者.c	/^void *consumer(void *arg)$/;"	f
+copy	string.cpp	/^char *string::copy(char *p, int count, int pos) {$/;"	f	class:string
+create_dummy_node	Schoolwork/hotelRoom_listFun.c	/^struct Node *create_dummy_node()$/;"	f
+create_dummy_node	testC/hotelRoom_listFun.c	/^struct Node *create_dummy_node()$/;"	f
+create_node	Schoolwork/hotelRoom_listFun.c	/^struct Node *create_node(int room_number, char room_type[], bool is_available, double room_price, char check_in_time[], char check_out_time[])$/;"	f
+create_node	testC/hotelRoom_listFun.c	/^struct Node *create_node(int room_number, char room_type[], bool is_available, double room_price, char check_in_time[], char check_out_time[])$/;"	f
+cv_	serverchat/server.hh	/^    std::condition_variable cv_; \/\/ 条件变量$/;"	m	class:My_shared_mutex
+d	testC++/源.cpp	/^  struct ListNode d = { 4,&e };$/;"	v	typeref:struct:ListNode
+d_ino	my_ls.h	/^    ino_t d_ino;     $/;"	m	struct:my_dirent
+d_ino	my_ls.h	/^    ino_t d_ino;$/;"	m	struct:stack_dirent_node
+d_ino	my_ls_10.22/my_ls.h	/^    ino_t d_ino;     $/;"	m	struct:my_dirent
+d_ino	my_ls_10.22/my_ls.h	/^    ino_t d_ino;$/;"	m	struct:stack_dirent_node
+d_ino	my_ls_10.22/my_ls_2.0/my_ls.h	/^    ino_t d_ino;     $/;"	m	struct:my_dirent
+d_ino	my_ls_10.22/my_ls_2.0/my_ls.h	/^    ino_t d_ino;$/;"	m	struct:stack_dirent_node
+d_ino	my_ls_10.22/teat.c	/^    ino_t d_ino;$/;"	m	struct:stack_dirent_node	file:
+d_ino	my_ls_2.0/my_ls.h	/^    ino_t d_ino;     $/;"	m	struct:my_dirent
+d_ino	my_ls_2.0/my_ls.h	/^    ino_t d_ino;$/;"	m	struct:stack_dirent_node
+d_name	my_ls.h	/^    char d_name[256];  $/;"	m	struct:my_dirent
+d_name	my_ls.h	/^    char d_name[256];  $/;"	m	struct:stack_dirent_node
+d_name	my_ls_10.22/my_ls.h	/^    char d_name[256];  $/;"	m	struct:my_dirent
+d_name	my_ls_10.22/my_ls.h	/^    char d_name[256];  $/;"	m	struct:stack_dirent_node
+d_name	my_ls_10.22/my_ls_2.0/my_ls.h	/^    char d_name[256];  $/;"	m	struct:my_dirent
+d_name	my_ls_10.22/my_ls_2.0/my_ls.h	/^    char d_name[256];  $/;"	m	struct:stack_dirent_node
+d_name	my_ls_10.22/teat.c	/^    char d_name[256];  $/;"	m	struct:stack_dirent_node	file:
+d_name	my_ls_2.0/my_ls.h	/^    char d_name[256];  $/;"	m	struct:my_dirent
+d_name	my_ls_2.0/my_ls.h	/^    char d_name[256];  $/;"	m	struct:stack_dirent_node
+data	Schoolwork/makefile	/^data := $(shell echo *.data)$/;"	m
+data	Test_ofC++Primer/test.cc	/^    std::shared_ptr<std::vector<std::string>> data;$/;"	m	class:strBlob	file:
+data	string.cpp	/^const char *string::data() {$/;"	f	class:string
+data_lock	clientchat/client.hh	/^    static std::mutex data_lock;$/;"	m	class:Ctrl_Data
+dayin	testC/打印对称数.c	/^void dayin(int i, int n)$/;"	f
+dayin1	testC/打印对称数.c	/^void dayin1(int i,int n)$/;"	f
+dead_notification	serverchat/action.cc	/^int dead_notification(std::string *dead_id, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+del	serverchat/server.hh	/^    int del(std::string const &id)$/;"	f	class:userlist
+del	头.h	/^	del,$/;"	e	enum:xuanxiang
+delete	Schoolwork/hotelRoom_listFun.c	/^struct Node *delete(struct Node *head, int room_number)$/;"	f
+delete	testC/hotelRoom_listFun.c	/^struct Node *delete(struct Node *head, int room_number)$/;"	f
+delete_one	testC++/函数.cpp	/^void delete_one(int x, int* size_, struct person** point)$/;"	f
+destory	Schoolwork/hotelRoom_listFun.c	/^struct Node *destory(struct Node *head)$/;"	f
+destory	testC/hotelRoom_listFun.c	/^struct Node *destory(struct Node *head)$/;"	f
+distinguish	serverchat/fun.cc	/^int distinguish(size_t action, std::string &message)$/;"	f
+do_	serverchat/server.hh	/^    int do_(std::string &command)$/;"	f	class:MySql
+do_cache	clientchat/client.hh	/^    bool do_cache(std::string &chatid)$/;"	f	class:filesystem
+download_group_data	serverchat/action.cc	/^int download_group_data(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+download_user_data	serverchat/action.cc	/^int download_user_data(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+e	testC++/源.cpp	/^  struct ListNode e = { 5,NULL };$/;"	v	typeref:struct:ListNode
+empty	Test_ofC++Primer/test.cc	/^    bool empty() { return data->empty(); };$/;"	f	class:strBlob
+end	my_ls.h	/^    struct stack_dirent_node * end;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+end	my_ls_10.22/my_ls.h	/^    struct stack_dirent_node * end;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+end	my_ls_10.22/my_ls_2.0/my_ls.h	/^    struct stack_dirent_node * end;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+end	my_ls_10.22/teat.c	/^    struct stack_dirent_node * end;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node	file:
+end	my_ls_2.0/my_ls.h	/^    struct stack_dirent_node * end;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+escapeString	serverchat/server.hh	/^    char *escapeString(std::string &str)$/;"	f	class:MySql
+fd	clientchat/client.hh	/^    int fd = -1;$/;"	m	class:filesystem
+filein	Schoolwork/hotelRoom_listFun.c	/^struct Node *filein(char *usrname, struct Node *head)$/;"	f
+filein	testC/hotelRoom_listFun.c	/^struct Node *filein(char *usrname, struct Node *head)$/;"	f
+fileout	Schoolwork/hotelRoom_listFun.c	/^struct Node *fileout(char *usrname, struct Node *head)$/;"	f
+fileout	testC/hotelRoom_listFun.c	/^struct Node *fileout(char *usrname, struct Node *head)$/;"	f
+filesys	clientchat/client_main.cc	/^filesystem *filesys = nullptr;$/;"	v
+filesys_lock	clientchat/client.hh	/^    std::mutex filesys_lock;$/;"	m	class:filesystem
+filesystem	clientchat/client.hh	/^    filesystem(Work_Queue *a) : wq(a){};$/;"	f	class:filesystem
+filesystem	clientchat/client.hh	/^class filesystem$/;"	c
+find	Schoolwork/hotelRoom_listFun.c	/^struct Node *find(struct Node *head, int room_number, bool *if_tail)$/;"	f
+find	testC/hotelRoom_listFun.c	/^struct Node *find(struct Node *head, int room_number, bool *if_tail)$/;"	f
+findForChange	Schoolwork/hotelRoom_listFun.c	/^struct Node *findForChange(struct Node *head, int room_number)$/;"	f
+findForChange	testC/hotelRoom_listFun.c	/^struct Node *findForChange(struct Node *head, int room_number)$/;"	f
+find_	testC++/函数.cpp	/^int find_(char* a, struct person** point, int size_)$/;"	f
+find_basic_file	clientchat/client_main.cc	/^bool find_basic_file(std::string user_name, bool &a)$/;"	f
+find_for_list	testC/list_of_MACRO.c	/^list* find_for_list(list* head, int target)\/\/返回所在节点$/;"	f
+find_for_list_node_delete	testC/list_of_MACRO.c	/^list* find_for_list_node_delete(list* head, int target)$/;"	f
+find_friend_name	clientchat/client.hh	/^    std::string find_friend_name(std::string const &friend_id)$/;"	f	class:Ctrl_Data_On_Ctrl
+find_group_name	serverchat/action.cc	/^std::string find_group_name(std::string id, MYSQL *mysql)$/;"	f
+find_name_from_INO	my_ls_10.22/my_pwd.c	/^char * find_name_from_INO(ino_t ino)$/;"	f
+find_user_name	serverchat/action.cc	/^std::string find_user_name(std::string id, MYSQL *mysql)$/;"	f
+flush_out	clientchat/view.hh	/^    void flush_out(std::stringstream &stream, Ctrl_Data_On_View *Data_On_View_ptr)$/;"	f	class:Window
+flush_timestamp	clientchat/client_main.cc	/^int flush_timestamp(char *timestamp)$/;"	f
+for_change	Schoolwork/hotelRoom_listFun.c	/^void for_change(struct Node *head)$/;"	f
+free	clientchat/client.hh	/^    void free(job_in_Work_Queue **job)$/;"	f	struct:job_in_Work_Queue
+free_result	serverchat/server.hh	/^    void free_result()$/;"	f	class:MySql
+friend_chat_now	clientchat/view.hh	/^    friend_data friend_chat_now;$/;"	m	class:Window
+friend_chatid	clientchat/view.hh	/^    std::string const &friend_chatid() const { return friendchatid; };$/;"	f	class:friend_data::std
+friend_data	clientchat/view.hh	/^    friend_data(std::string id, std::string name, std::string chatid, std::string stat)$/;"	f	struct:friend_data
+friend_data	clientchat/view.hh	/^struct friend_data : private user_data$/;"	s
+friend_id	clientchat/view.hh	/^    std::string const &friend_id() const { return id; };$/;"	f	class:friend_data::std
+friend_name	clientchat/view.hh	/^    std::string const &friend_name() const { return name; };$/;"	f	class:friend_data::std
+friend_stat	clientchat/view.hh	/^    std::string const &friend_stat() const { return stat; }$/;"	f	class:friend_data::std
+friendchatid	clientchat/view.hh	/^    std::string friendchatid;$/;"	m	struct:friend_data
+friends_set	clientchat/client.hh	/^    static std::vector<friend_data> friends_set;$/;"	m	class:Ctrl_Data
+friends_set	clientchat/view.hh	/^    static std::vector<friend_data> friends_set;$/;"	m	class:Window
+friends_set_list_ref	clientchat/view.hh	/^    std::vector<friend_data> const &friends_set_list_ref = friends_set;$/;"	m	class:Window::std
+front	Test_ofC++Primer/test.cc	/^std::string & strBlob::front (){$/;"	f	class:strBlob
+fun	serverchat/server.hh	/^    int (*fun)(std::string *, socket_connect_to_client *, MySql *, char *); \/\/ 这里的sql指针 指向已经链接好的 每一个线程不同的 链接字段$/;"	m	struct:item_of_works
+fun	testC/test.c	/^void fun(bool * a){$/;"	f
+function	testC++/test.cc	/^int * function (int arg,int a =10)$/;"	f
+funs	serverchat/main.cc	/^int (*funs[FUNCTION_NUMS + 1])(std::string *, socket_connect_to_client *, MySql *, char *) = {$/;"	v
+getMillisecondTimestamp	clientchat/client_main.cc	/^std::string &getMillisecondTimestamp(std::string &timestamp)$/;"	f
+getMillisecondTimestamp	serverchat/fun.cc	/^std::string &getMillisecondTimestamp(std::string &timestamp)$/;"	f
+getTerminalWidth	clientchat/view.hh	/^    int getTerminalWidth() const$/;"	f	class:Window
+get_address	clientchat/client.hh	/^    struct sockaddr_in *get_address() { return &client_address; }$/;"	f	class:user_sk
+get_address	serverchat/server.hh	/^    struct sockaddr_in *get_address() { return &client_address; }$/;"	f	class:socket_connect_to_client
+get_client	serverchat/server.hh	/^    int get_client() { return accept(this->server_listen_socket_fd, NULL, NULL); }$/;"	f	class:server_listen_socket
+get_client	serverchat/server.hh	/^    int get_client(class socket_connect_to_client &a)$/;"	f	class:server_listen_socket
+get_current_timestamp	serverchat/fun.cc	/^char* get_current_timestamp(char * timestamp) {$/;"	f
+get_friends_set	clientchat/client.hh	/^    std::vector<friend_data> const &get_friends_set() { return friends_set; }$/;"	f	class:Ctrl_Data_On_View::std
+get_groups_set	clientchat/client.hh	/^    std::vector<group_data> const &get_groups_set() { return groups_set; }$/;"	f	class:Ctrl_Data_On_View::std
+get_id	serverchat/server.hh	/^    const std::string &get_id() const { return id; };$/;"	f	struct:user
+get_ino_ofname	my_ls_10.22/my_pwd.c	/^ino_t get_ino_ofname(char * filename)$/;"	f
+get_input	clientchat/view.hh	/^    std::string *get_input()$/;"	f	class:Window
+get_last_insert_id	serverchat/server.hh	/^    char *get_last_insert_id()$/;"	f	class:MySql
+get_local_ipv4	clientchat/test.cc	/^std::string get_local_ipv4() {$/;"	f
+get_notices_count	clientchat/client.hh	/^    int &get_notices_count() { return this->notices_count; }$/;"	f	class:Ctrl_Data_On_View
+get_result	serverchat/server.hh	/^    MYSQL_RES *get_result()$/;"	f	class:MySql
+get_root	config.py	/^def get_root():$/;"	f
+get_row	serverchat/server.hh	/^    MYSQL_ROW get_row()$/;"	f	class:MySql
+get_rows_from_result	serverchat/server.hh	/^    MYSQL_ROW get_rows_from_result() \/\/ 循环调用 到末尾返回 NULL$/;"	f	class:MySql
+get_timestamp_from_file	clientchat/client_main.cc	/^char *get_timestamp_from_file(char *timestamp)$/;"	f
+get_user_id	clientchat/client.hh	/^    std::string const &get_user_id() { return user_id; }$/;"	f	class:Ctrl_Data_On_View::std
+get_user_name	clientchat/client.hh	/^    std::string const &get_user_name() { return user_name; }$/;"	f	class:Ctrl_Data_On_View::std
+group_chat_id	clientchat/view.hh	/^    std::string group_chat_id;$/;"	m	struct:group_data
+group_chat_now	clientchat/view.hh	/^    group_data group_chat_now;$/;"	m	class:Window
+group_chatid	clientchat/view.hh	/^    const std::string &group_chatid() const { return group_chat_id; };$/;"	f	struct:group_data
+group_data	clientchat/view.hh	/^    group_data(std::string id_in, std::string name_in, std::string chatid_in, std::vector<user_data> group_members)$/;"	f	struct:group_data
+group_data	clientchat/view.hh	/^struct group_data : private user_data$/;"	s
+group_id	clientchat/view.hh	/^    const std::string &group_id() const { return id; };$/;"	f	struct:group_data
+group_level	clientchat/view.hh	/^enum group_level$/;"	g
+group_members	clientchat/view.hh	/^    std::vector<user_data> group_members;$/;"	m	struct:group_data
+group_name	clientchat/view.hh	/^    const std::string &group_name() const { return name; };$/;"	f	struct:group_data
+groups_set	clientchat/client.hh	/^    static std::vector<group_data> groups_set;$/;"	m	class:Ctrl_Data
+groups_set	clientchat/view.hh	/^    static std::vector<group_data> groups_set;$/;"	m	class:Window
+groups_set_list_ref	clientchat/view.hh	/^    std::vector<group_data> const &groups_set_list_ref = groups_set;$/;"	m	class:Window::std
+han_nuo	testC++/汉诺塔.cpp	/^int han_nuo(int n) \/\/?ⶨ??n??ת?Ƶ?c??????ϸ????$/;"	f
+handle_job	clientchat/client_main.cc	/^bool handle_job(job_in_Work_Queue *job)$/;"	f
+has_producer	testC/生产者消费者.c	/^pthread_cond_t has_producer = PTHREAD_COND_INITIALIZER;$/;"	v
+head	my_ls.h	/^    struct stack_dirent_node * head;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+head	my_ls_10.22/my_ls.h	/^    struct stack_dirent_node * head;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+head	my_ls_10.22/my_ls_2.0/my_ls.h	/^    struct stack_dirent_node * head;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+head	my_ls_10.22/teat.c	/^    struct stack_dirent_node * head;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node	file:
+head	my_ls_2.0/my_ls.h	/^    struct stack_dirent_node * head;$/;"	m	struct:stack_dirent	typeref:struct:stack_dirent::stack_dirent_node
+head	testC/生产者消费者.c	/^struct msg *head = NULL;    \/\/头指针$/;"	v	typeref:struct:msg
+headDel	Schoolwork/hotelRoom_listFun.c	/^struct Node *headDel(struct Node *head) \/\/ shao bing$/;"	f
+headDel	testC/hotelRoom_listFun.c	/^struct Node *headDel(struct Node *head) \/\/ shao bing$/;"	f
+head_delete	testC/list_of_MACRO.c	/^void head_delete(list **head)$/;"	f
+head_delete_	testC/list_of_MACRO.c	/^void head_delete_(list**head) {$/;"	f
+head_insert	testC/list_of_MACRO.c	/^void head_insert(list**head,int value)$/;"	f
+head_insert_	testC/list_of_MACRO.c	/^void head_insert_(list**head,int value)$/;"	f
+i	my_ls.h	/^bool i = 0;$/;"	v
+i	my_ls_10.22/my_ls.h	/^bool i = 0;$/;"	v
+i	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool i = 0;$/;"	v
+i	my_ls_2.0/my_ls.c	/^bool i = 0;$/;"	v
+id	clientchat/view.hh	/^    std::string id = "";$/;"	m	struct:user_data
+id	serverchat/server.hh	/^    std::string id = "";$/;"	m	struct:user
+init	Schoolwork/hotelRoom_listFun.c	/^int init()$/;"	f
+init	clientchat/client_main.cc	/^bool init(std::string *message, Ctrl_Data_On_Ctrl &Data_On_Ctrl)$/;"	f
+init	serverchat/server.hh	/^    bool init(const std::string &ip_address, const std::string &port)$/;"	f	class:server_listen_socket
+init_data	serverchat/action.cc	/^int init_data(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+insert	serverchat/server.hh	/^    int insert(std::string &id, user *a)$/;"	f	class:userlist
+insert	string.cpp	/^string &string::insert(int i, const char *p) {$/;"	f	class:string
+insert	string.cpp	/^string &string::insert(int i, const char *p, int count) {$/;"	f	class:string
+insert	string.cpp	/^string &string::insert(int i, const char *p, int pos, int count) {$/;"	f	class:string
+insert	string.cpp	/^string &string::insert(int i, int count, char a) {$/;"	f	class:string
+insert	wang_string.cc	/^  string &insert(size_t pos, const char *s) {$/;"	f	class:string
+insert	wang_string.cc	/^  string &insert(size_t pos, const char *s, size_t n) {$/;"	f	class:string
+insert	wang_string.cc	/^  string &insert(size_t pos, const string &str) {$/;"	f	class:string
+insert	wang_string.cc	/^  string &insert(size_t pos, size_t n, char c) {$/;"	f	class:string
+ip	clientchat/client.hh	/^    std::string ip = "";$/;"	m	class:ServerConnection_sock
+is_alive	serverchat/server.hh	/^    bool is_alive = false;$/;"	m	struct:user
+is_available	Schoolwork/hotelManageSys.h	/^  bool is_available;       \/\/ 是否居住$/;"	m	struct:Room
+is_available	hotelManageSys.h	/^  bool is_available;       \/\/ 是否居住$/;"	m	struct:Room
+is_changed	clientchat/client.hh	/^    bool &is_changed() { return std::ref(Ctrl_Data::is_changed); }$/;"	f	class:Ctrl_Data_On_View
+is_changed	clientchat/client.hh	/^    static bool is_changed;$/;"	m	class:Ctrl_Data
+is_changed	clientchat/view.hh	/^    bool is_changed = false;$/;"	m	class:Window
+is_command	clientchat/thread_Talk_to_User.cc	/^bool is_command(std::string *message) { return ((*message).size() >= 2 && (*message)[0] == ':' && (*message)[1] == ' '); }$/;"	f
+is_init	clientchat/view.hh	/^    bool is_init = false;$/;"	m	class:Window
+is_need_lock	clientchat/client.hh	/^    bool is_need_lock = true;$/;"	m	class:Work_Queue
+is_new_chat	clientchat/view.hh	/^    bool is_new_chat = false; \/\/ 有新消息来的时候该这个字段要被更新 在查看给该用户时 更新$/;"	m	struct:friend_data
+is_new_chat	clientchat/view.hh	/^    bool is_new_chat = false;$/;"	m	struct:group_data
+is_prime_	Test_gtest/prime_tables.h	/^  bool* const is_prime_;$/;"	m	class:PreCalculatedPrimeTable
+is_prime_size_	Test_gtest/prime_tables.h	/^  const int is_prime_size_;$/;"	m	class:PreCalculatedPrimeTable
+is_self_data_lock	clientchat/client.hh	/^    bool is_self_data_lock = false; \/\/ 保留 希望是通过^C 刷新std::in 设置信号处理函数$/;"	m	class:Ctrl_Data_On_View
+is_stop	serverchat/server.hh	/^    bool is_stop = false;$/;"	m	class:thread_pool
+is_wrong_lasttime	clientchat/view.hh	/^    bool is_wrong_lasttime = false;$/;"	m	class:Window
+isbn	Sales_data__C++Primer/Sales_data.h	/^		std::string isbn() const {return this->bookNo;}$/;"	f	class:Sales_data
+isbn	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		std::string isbn() const {return this->bookNo;}$/;"	f	class:Sales_data
+item_of_works	serverchat/server.hh	/^struct item_of_works \/\/ 在创建时就将 fun 定义好$/;"	s
+job_in_Work_Queue	clientchat/client.hh	/^    job_in_Work_Queue(size_t mode, std::string *message) : message(message), mode(mode), self(this) {}$/;"	f	struct:job_in_Work_Queue
+job_in_Work_Queue	clientchat/client.hh	/^    job_in_Work_Queue(size_t mode, std::string *message, char *timestamp) : message(message), mode(mode), self(this), timestamp(timestamp) {}$/;"	f	struct:job_in_Work_Queue
+job_in_Work_Queue	clientchat/client.hh	/^struct job_in_Work_Queue$/;"	s
+json_cache	clientchat/client_main.cc	/^nlohmann::json *json_cache = nullptr;$/;"	v
+judgment	my_ls_10.22/my_ls.c	/^long judgment(my_dirent *a, my_dirent *b) \/\/时间排序判断 \/\/ 无分配内存$/;"	f
+judgment	my_ls_10.22/my_ls_2.0/my_ls.c	/^long judgment(my_dirent *a,my_dirent *b)$/;"	f
+judgment	my_ls_2.0/my_ls.c	/^long judgment(my_dirent *a,my_dirent *b)$/;"	f
+judgment	testC/my_ls.c	/^long judgment(my_dirent *a, my_dirent *b) \/\/时间排序判断 \/\/ 无分配内存$/;"	f
+judgment	testC/my_ls_10.23.c	/^long judgment(my_dirent *a, my_dirent *b) \/\/时间排序判断 \/\/ 无分配内存$/;"	f
+l	my_ls.h	/^bool l = 0;$/;"	v
+l	my_ls_10.22/my_ls.h	/^bool l = 0;$/;"	v
+l	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool l = 0;$/;"	v
+l	my_ls_2.0/my_ls.c	/^bool l = 0;$/;"	v
+left	Test_qsort/Test_QuichSortWithPthread.c	/^    int left;$/;"	m	struct:__anon3	file:
+left	testC/Test_QuichSortWithPthread.c	/^    int left;$/;"	m	struct:__anon1	file:
+len	C语言的动态扩容/head.h	/^  int len;     \/\/当前缓冲区（字符串）长度$/;"	m	struct:strbuf
+length	wang_string.cc	/^  size_t length = 0;$/;"	m	class:string	file:
+list_node_change	testC/list_of_MACRO.c	/^void list_node_change(list* head, int target, int for_what)$/;"	f
+load_config	config.py	/^def load_config():$/;"	f
+lock	clientchat/client.hh	/^    bool lock() { return data_lock.try_lock(); }$/;"	f	class:Ctrl_Data_On_Ctrl
+lock	clientchat/client.hh	/^    void lock()$/;"	f	class:Ctrl_Data_On_View
+lock	serverchat/server.hh	/^    void lock()$/;"	f	class:My_shared_mutex
+lock_shared	serverchat/server.hh	/^    void lock_shared()$/;"	f	class:My_shared_mutex
+login	Schoolwork/hotelRoom_listFun.c	/^bool login(char *usrname, struct Node *head)$/;"	f
+login	clientchat/thread_Talk_to_User.cc	/^bool login(Work_Queue &Ctrl_Work_Queue, Work_Queue &queue_btw_Ctrl_View)$/;"	f
+main	Cpp/test/1/a.c	/^int main()$/;"	f
+main	Cpp/test/test.cc	/^int main()$/;"	f
+main	C语言的动态扩容/object.c	/^int main()$/;"	f
+main	C语言的动态扩容/test.c	/^int main()$/;"	f
+main	SECTION_3/3_3.c	/^int main(void)$/;"	f
+main	SECTION_3/3_8.c	/^int main(void)$/;"	f
+main	Sales_data__C++Primer/Sales_data_main.cpp	/^int main()$/;"	f
+main	Sales_data__C++Primer/Test_lambda__C++.cpp	/^int main(int argc, char **argv)$/;"	f
+main	Schoolwork/hotelManageSys.c	/^int main()$/;"	f
+main	Test_gtest/Test_gtest.cc	/^int main(int argc, char const *argv[]) {$/;"	f
+main	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data_main.cpp	/^int main()$/;"	f
+main	Test_ofC++Primer/Test_Map__C++Primer.cc	/^int main(int argc, char **argv)$/;"	f
+main	Test_ofC++Primer/Test_lambda__C++.cpp	/^int main(int argc, char **argv)$/;"	f
+main	Test_qsort/Test_QuichSortWithPthread.c	/^int main() {$/;"	f
+main	Test_qsort/Test_QuickSort.c	/^int main() {$/;"	f
+main	a.c	/^int main()$/;"	f
+main	clientchat/client_main.cc	/^int main(int argc, char **argv)$/;"	f
+main	clientchat/encryption.cc	/^int main()$/;"	f
+main	clientchat/test.cc	/^int main () {$/;"	f
+main	my_ls_10.22/my_ls.c	/^int main(int argc, char **argv)$/;"	f
+main	my_ls_10.22/my_ls_2.0/my_ls.c	/^int main(int argc,char **argv)$/;"	f
+main	my_ls_10.22/my_pwd.c	/^int main(int argc,char **argv)$/;"	f
+main	my_ls_10.22/teat.c	/^int main()$/;"	f
+main	my_ls_2.0/my_ls.c	/^int main(int argc,char **argv)$/;"	f
+main	serverchat/main.cc	/^int main(int argc, char **argv)$/;"	f
+main	string.cpp	/^int main() {$/;"	f
+main	testC++/Test_Map__C++Primer.cc	/^int main(int argc, char **argv)$/;"	f
+main	testC++/Test_lambda__C++.cpp	/^int main(int argc, char **argv)$/;"	f
+main	testC++/qsort + struct .cpp	/^int main()$/;"	f
+main	testC++/test.cc	/^int main(int argc, char **argv)$/;"	f
+main	testC++/汉诺塔.cpp	/^int main()$/;"	f
+main	testC++/源.cpp	/^int main()$/;"	f
+main	testC/Test_QuichSortWithPthread.c	/^int main() {$/;"	f
+main	testC/Test_QuickSort.c	/^int main() {$/;"	f
+main	testC/hotelManageSys.c	/^int main(){$/;"	f
+main	testC/my_ls.c	/^int main(int argc, char **argv)$/;"	f
+main	testC/my_ls_10.23.c	/^int main(int argc, char **argv)$/;"	f
+main	testC/test.c	/^int main()$/;"	f
+main	testC/test_of_Linux_22.c	/^int main(int argc, char **argv) {$/;"	f
+main	testC/姓名检索 .c	/^int main()$/;"	f
+main	testC/打印对称数.c	/^int main()$/;"	f
+main	testC/生产者消费者.c	/^int main(void)$/;"	f
+main	wang_string.cc	/^int main() {$/;"	f
+make_group	serverchat/action.cc	/^int make_group(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+make_timestamp_to_net	clientchat/client_main.cc	/^char *make_timestamp_to_net(char *timestamp)$/;"	f
+manage_group_member	serverchat/action.cc	/^int manage_group_member(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+menu	testC++/函数.cpp	/^void menu()$/;"	f
+message	clientchat/client.hh	/^    std::string *message = nullptr;$/;"	m	struct:job_in_Work_Queue
+message	clientchat/view.hh	/^    std::string *message = nullptr;$/;"	m	class:Window
+message	serverchat/server.hh	/^    std::string *message;                                                   \/\/ need delete$/;"	m	struct:item_of_works
+mode	clientchat/client.hh	/^    size_t mode;$/;"	m	struct:job_in_Work_Queue
+msg	testC/生产者消费者.c	/^struct msg$/;"	s	file:
+mtx_	serverchat/server.hh	/^    std::mutex mtx_;             \/\/ 互斥锁$/;"	m	class:My_shared_mutex
+mutex	testC/生产者消费者.c	/^pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+my_condition	serverchat/server.hh	/^    std::condition_variable my_condition;$/;"	m	class:thread_pool
+my_dirent	my_ls.h	/^    }my_dirent;$/;"	t	typeref:struct:my_dirent
+my_dirent	my_ls.h	/^typedef struct my_dirent$/;"	s
+my_dirent	my_ls_10.22/my_ls.h	/^    }my_dirent;$/;"	t	typeref:struct:my_dirent
+my_dirent	my_ls_10.22/my_ls.h	/^typedef struct my_dirent$/;"	s
+my_dirent	my_ls_10.22/my_ls_2.0/my_ls.h	/^    }my_dirent;$/;"	t	typeref:struct:my_dirent
+my_dirent	my_ls_10.22/my_ls_2.0/my_ls.h	/^typedef struct my_dirent$/;"	s
+my_dirent	my_ls_2.0/my_ls.h	/^    }my_dirent;$/;"	t	typeref:struct:my_dirent
+my_dirent	my_ls_2.0/my_ls.h	/^typedef struct my_dirent$/;"	s
+my_mutex	serverchat/server.hh	/^    std::mutex my_mutex;$/;"	m	class:thread_pool
+my_threads	serverchat/server.hh	/^    std::vector<std::thread> my_threads;$/;"	m	class:thread_pool
+my_work_queue	serverchat/server.hh	/^    std::queue<item_of_works> my_work_queue;$/;"	m	class:thread_pool
+mysort	testC++/函数.cpp	/^void mysort(struct person** point, int size_)$/;"	f
+mysql	serverchat/server.hh	/^    MYSQL *mysql = NULL; \/\/ MySQL连接对象指针$/;"	m	class:MySql
+name	clientchat/view.hh	/^    std::string name = "";$/;"	m	struct:user_data
+name	serverchat/server.hh	/^    std::string name = "";$/;"	m	struct:user
+name	testC++/qsort + struct .cpp	/^	char name[20];$/;"	m	struct:stu	file:
+name	头.h	/^	char name[20];$/;"	m	struct:person
+next	Schoolwork/hotelManageSys.h	/^    struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
+next	my_ls.h	/^    struct my_dirent* next;$/;"	m	struct:my_dirent	typeref:struct:my_dirent::my_dirent
+next	my_ls_10.22/my_ls.h	/^    struct my_dirent* next;$/;"	m	struct:my_dirent	typeref:struct:my_dirent::my_dirent
+next	my_ls_10.22/my_ls_2.0/my_ls.h	/^    struct my_dirent* next;$/;"	m	struct:my_dirent	typeref:struct:my_dirent::my_dirent
+next	my_ls_2.0/my_ls.h	/^    struct my_dirent* next;$/;"	m	struct:my_dirent	typeref:struct:my_dirent::my_dirent
+next	testC++/源.cpp	/^      struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+next	testC/hotelRoom_listFun.c	/^    struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	testC/生产者消费者.c	/^    struct msg *next; $/;"	m	struct:msg	typeref:struct:msg::msg	file:
+notices_count	clientchat/client.hh	/^    static int notices_count;$/;"	m	class:Ctrl_Data
+npos	wang_string.cc	7;"	d	file:
+num	testC++/qsort + struct .cpp	/^	char num[50];$/;"	m	struct:stu	file:
+num	testC/生产者消费者.c	/^    int num; $/;"	m	struct:msg	file:
+object	serverchat/makefile	/^object = .\/bin\/main.o .\/bin\/thread_threadpool.o .\/bin\/action.o .\/bin\/fun.o$/;"	m
+ogch	Schoolwork/makefile	/^ogch := $(shell echo *.o *.gch)$/;"	m
+open_	my_ls_10.22/teat.c	/^open_(char * name,DIR * dir)$/;"	f
+operator !=	clientchat/view.hh	/^    virtual bool operator!=(user_data const &other) const { return !operator==(other); }$/;"	f	struct:user_data
+operator !=	wang_string.cc	/^  bool operator!=(string const &str) const { return !(*this == str); }$/;"	f	class:string
+operator +	string.cpp	/^string string::operator+(const string &str) {$/;"	f	class:string
+operator +	wang_string.cc	/^  string operator+(string const &str) {$/;"	f	class:string
+operator +=	string.cpp	/^string &string::operator+=(const char *p) {$/;"	f	class:string
+operator +=	string.cpp	/^string &string::operator+=(const string &str) {$/;"	f	class:string
+operator +=	wang_string.cc	/^  string &operator+=(string const &str) {$/;"	f	class:string
+operator <	clientchat/view.hh	/^    virtual bool operator<(user_data const &other) const { return this->id < other.id; }$/;"	f	struct:user_data
+operator <	string.cpp	/^bool string::operator<(const string &str) {$/;"	f	class:string
+operator <	wang_string.cc	/^  bool operator<(string const &str) const {$/;"	f	class:string
+operator <=	clientchat/view.hh	/^    virtual bool operator<=(user_data const &other) const { return !operator>(other); }$/;"	f	struct:user_data
+operator <=	string.cpp	/^bool string::operator<=(const string &str) {$/;"	f	class:string
+operator <=	wang_string.cc	/^  bool operator<=(string const &str) const {$/;"	f	class:string
+operator =	clientchat/view.hh	/^    friend_data &operator=(const friend_data &other)$/;"	f	struct:friend_data
+operator =	string.cpp	/^string &string::operator=(const string &str) {$/;"	f	class:string
+operator =	wang_string.cc	/^  string &operator=(string const &str) {$/;"	f	class:string
+operator ==	clientchat/view.hh	/^    virtual bool operator==(user_data const &other) const { return this->id == other.id; }$/;"	f	struct:user_data
+operator ==	string.cpp	/^bool string::operator==(const string &str) {$/;"	f	class:string
+operator ==	wang_string.cc	/^  bool operator==(string const &str) const {$/;"	f	class:string
+operator >	clientchat/view.hh	/^    virtual bool operator>(user_data const &other) const { return this->id > other.id; }$/;"	f	struct:user_data
+operator >	string.cpp	/^bool string::operator>(const string &str) { return !((*this) <= str); }$/;"	f	class:string
+operator >	wang_string.cc	/^  bool operator>(string const &str) const { return !(*this <= str); }$/;"	f	class:string
+operator >=	clientchat/view.hh	/^    virtual bool operator>=(user_data const &other) const { return !operator<(other); }$/;"	f	struct:user_data
+operator >=	string.cpp	/^bool string::operator>=(const string &str) { return !((*this) > str); }$/;"	f	class:string
+operator >=	wang_string.cc	/^  bool operator>=(string const &str) const {$/;"	f	class:string
+otherdata	Schoolwork/hotelManageSys.h	/^  char otherdata[16]; \/\/ unused$/;"	m	struct:usrPassWord
+out	头.h	/^	out = 0,$/;"	e	enum:xuanxiang
+owner	clientchat/client.hh	/^    struct user *owner = nullptr;$/;"	m	class:user_sk	typeref:struct:user_sk::user
+owner	serverchat/server.hh	/^    struct user *owner = nullptr;$/;"	m	class:socket_connect_to_client	typeref:struct:socket_connect_to_client::user
+panduan_weishu	testC/打印对称数.c	/^int panduan_weishu(int last)$/;"	f
+parameter	serverchat/makefile	/^parameter = -L \/usr\/lib\/mysql -lmysqlclient -I\/usr\/include\/mysql -lglog$/;"	m
+partition	Test_qsort/Test_QuichSortWithPthread.c	/^int partition(int left, int right) {$/;"	f
+partition	Test_qsort/Test_QuickSort.c	/^int partition(int arr[], int low, int high) {$/;"	f
+partition	testC/Test_QuichSortWithPthread.c	/^int partition(int left, int right) {$/;"	f
+partition	testC/Test_QuickSort.c	/^int partition(int arr[], int low, int high) {$/;"	f
+password	Schoolwork/hotelManageSys.h	/^  char password[64];$/;"	m	struct:usrPassWord
+person	头.h	/^struct person {$/;"	s
+phone	头.h	/^	char phone[20];$/;"	m	struct:person
+pipe	clientchat/client.hh	/^    int pipe[2];$/;"	m	class:Work_Queue
+point	serverchat/server.hh	/^    socket_connect_to_client *point;                                        \/\/ 指向信息所属的 socket_fd :> class socket_connect_to_client$/;"	m	struct:item_of_works
+point	testC++/源.cpp	/^  struct ListNode** point;$/;"	v	typeref:struct:ListNode
+point	头.h	/^static struct person* point[100];$/;"	v	typeref:struct:person
+pop	clientchat/client.hh	/^    job_in_Work_Queue *pop()$/;"	f	class:Work_Queue
+pop_back	Test_ofC++Primer/test.cc	/^void strBlob::pop_back(){$/;"	f	class:strBlob
+port	clientchat/client.hh	/^    std::string port = "";$/;"	m	class:ServerConnection_sock
+print	Sales_data__C++Primer/Sales_data.cpp	/^std::ostream &print(std::ostream &os, const Sales_data &item)$/;"	f
+print	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.cpp	/^std::ostream &print(std::ostream &os, const Sales_data &item)$/;"	f
+print	testC++/函数.cpp	/^void print(struct person* point[], int size_)$/;"	f
+printArray	Test_qsort/Test_QuickSort.c	/^void printArray(int arr[], int n) {$/;"	f
+printArray	testC/Test_QuickSort.c	/^void printArray(int arr[], int n) {$/;"	f
+print_Permissions	my_ls_10.22/my_ls.c	/^void print_Permissions(mode_t mode) \/\/获得权限输出$/;"	f
+print_Permissions	my_ls_10.22/my_ls_2.0/my_ls.c	/^void print_Permissions(mode_t mode)\/\/获得权限输出$/;"	f
+print_Permissions	my_ls_2.0/my_ls.c	/^void print_Permissions(mode_t mode)\/\/获得权限输出$/;"	f
+print_Permissions	testC/my_ls.c	/^void print_Permissions(mode_t mode) \/\/获得权限输出$/;"	f
+print_Permissions	testC/my_ls_10.23.c	/^void print_Permissions(mode_t mode) \/\/获得权限输出$/;"	f
+print_buf	C语言的动态扩容/object.c	/^void print_buf(strbuf* sb)$/;"	f
+print_bufarray	C语言的动态扩容/object.c	/^void print_bufarray(strbuf** arr){$/;"	f
+print_list	Schoolwork/hotelRoom_listFun.c	/^void print_list(struct Node *dummy)$/;"	f
+print_list	testC/hotelRoom_listFun.c	/^void print_list(struct Node *dummy)$/;"	f
+print_list	testC/list_of_MACRO.c	/^void print_list(list* head)$/;"	f
+print_ls	my_ls_10.22/my_ls.c	/^void print_ls(char *path)$/;"	f
+print_ls	my_ls_10.22/my_ls_2.0/my_ls.c	/^void print_ls(char * path)$/;"	f
+print_ls	my_ls_2.0/my_ls.c	/^void print_ls(char * path)$/;"	f
+print_ls	testC/my_ls.c	/^void print_ls(char *path)$/;"	f
+print_ls	testC/my_ls_10.23.c	/^void print_ls(char *path)$/;"	f
+print_ls_FOR_R	my_ls_10.22/my_ls.c	/^void print_ls_FOR_R(char *path, char *a)$/;"	f
+print_ls_FOR_R	my_ls_10.22/my_ls_2.0/my_ls.c	/^void print_ls_FOR_R(char * path,char *a)$/;"	f
+print_ls_FOR_R	my_ls_2.0/my_ls.c	/^void print_ls_FOR_R(char * path,char *a)$/;"	f
+print_ls_RRRR	testC/my_ls.c	/^void print_ls_RRRR(char *path)$/;"	f
+print_ls_RRRR	testC/my_ls_10.23.c	/^void print_ls_RRRR(char *path)$/;"	f
+print_ls_of_one	my_ls_10.22/my_ls.c	/^void print_ls_of_one(char *path)$/;"	f
+print_ls_of_one	my_ls_10.22/my_ls_2.0/my_ls.c	/^void print_ls_of_one(char * path)$/;"	f
+print_ls_of_one	my_ls_2.0/my_ls.c	/^void print_ls_of_one(char * path)$/;"	f
+print_ls_of_one	testC/my_ls.c	/^void print_ls_of_one(char *path)$/;"	f
+print_ls_of_one	testC/my_ls_10.23.c	/^void print_ls_of_one(char *path)$/;"	f
+print_ls_of_one_RRR	my_ls_10.22/my_ls.c	/^void print_ls_of_one_RRR(char *path)$/;"	f
+print_ls_of_one_RRR	my_ls_10.22/my_ls_2.0/my_ls.c	/^void  print_ls_of_one_RRR(char *path)$/;"	f
+print_ls_of_one_RRR	my_ls_2.0/my_ls.c	/^void  print_ls_of_one_RRR(char *path)$/;"	f
+print_ls_of_one_RRR	testC/my_ls.c	/^void print_ls_of_one_RRR(char *path,int aaaaa)$/;"	f
+print_ls_of_one_RRR	testC/my_ls_10.23.c	/^void print_ls_of_one_RRR(char *path,int aaaaa)$/;"	f
+print_ls_of_one_trtrtr	my_ls_10.22/my_ls.c	/^void print_ls_of_one_trtrtr(char *path) \/\/ 排序打印 \/\/ 链表$/;"	f
+print_ls_of_one_trtrtr	my_ls_10.22/my_ls_2.0/my_ls.c	/^void  print_ls_of_one_trtrtr(char * path)$/;"	f
+print_ls_of_one_trtrtr	my_ls_2.0/my_ls.c	/^void  print_ls_of_one_trtrtr(char * path)$/;"	f
+print_ls_of_one_trtrtr	testC/my_ls.c	/^void print_ls_of_one_trtrtr(char *path) \/\/ 排序打印 \/\/ 链表$/;"	f
+print_ls_of_one_trtrtr	testC/my_ls_10.23.c	/^void print_ls_of_one_trtrtr(char *path) \/\/ 排序打印 \/\/ 链表$/;"	f
+printarr	string.cpp	/^void string::printarr() { std::cout << _arr << std::endl; }$/;"	f	class:string
+producer	testC/生产者消费者.c	/^void *producer(void *arg)$/;"	f
+queue_btw_Ctrl_View_ptr	clientchat/client_main.cc	/^Work_Queue *queue_btw_Ctrl_View_ptr = nullptr;$/;"	v
+quickSort	Test_qsort/Test_QuickSort.c	/^void quickSort(int arr[], int low, int high) {$/;"	f
+quickSort	testC/Test_QuickSort.c	/^void quickSort(int arr[], int low, int high) {$/;"	f
+quicksort_thread	Test_qsort/Test_QuichSortWithPthread.c	/^void* quicksort_thread(void* args) {$/;"	f
+quicksort_thread	testC/Test_QuichSortWithPthread.c	/^void* quicksort_thread(void* args) {$/;"	f
+r	my_ls.h	/^bool r = 0;$/;"	v
+r	my_ls_10.22/my_ls.h	/^bool r = 0;$/;"	v
+r	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool r = 0;$/;"	v
+r	my_ls_2.0/my_ls.c	/^bool r = 0;$/;"	v
+re_init	clientchat/view.hh	/^    void re_init(nlohmann::json user_cache,$/;"	f	class:Window
+read	Sales_data__C++Primer/Sales_data.cpp	/^std::istream &read(std::istream &is, Sales_data &item)$/;"	f
+read	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.cpp	/^std::istream &read(std::istream &is, Sales_data &item)$/;"	f
+read_fd	clientchat/client.hh	/^    int const &read_fd;$/;"	m	class:Work_Queue
+read_file	config.py	/^def read_file(path):$/;"	f
+read_mutex	clientchat/client.hh	/^    std::mutex read_mutex;$/;"	m	class:Work_Queue
+readers_	serverchat/server.hh	/^    int readers_ = 0;            \/\/ 读者数量$/;"	m	class:My_shared_mutex
+recv_file_data	serverchat/action.cc	/^int recv_file_data(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+recv_message	clientchat/client.hh	/^    bool recv_message(std::string &message, size_t &action, char *timestamp)$/;"	f	class:user_sk
+recv_message	serverchat/server.hh	/^    bool recv_message(std::string &message, size_t &action, char *buffer_time_stamp) \/\/ size buffer_time_stamp = 28$/;"	f	class:socket_connect_to_client
+remind_group_member	serverchat/action.cc	/^int remind_group_member(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+remind_user_member	serverchat/action.cc	/^int remind_user_member(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+removeNthFromEnd	testC++/源.cpp	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n)$/;"	f
+request_join_group	serverchat/action.cc	/^int request_join_group(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+request_make_friend	serverchat/action.cc	/^int request_make_friend(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+request_rename_group	serverchat/action.cc	/^int request_rename_group(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+request_rename_user	serverchat/action.cc	/^int request_rename_user(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+reset	clientchat/client.hh	/^    void reset()$/;"	f	class:filesystem
+reset	clientchat/view.hh	/^    void reset()$/;"	f	class:Window
+reset	serverchat/server.hh	/^    bool reset() \/\/ 需要显示调用$/;"	f	class:MySql
+result	serverchat/server.hh	/^    MYSQL_RES *result;  \/\/ 查询结果集指针$/;"	m	class:MySql
+revenue	Sales_data__C++Primer/Sales_data.h	/^		double revenue = 0.0;$/;"	m	class:Sales_data
+revenue	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		double revenue = 0.0;$/;"	m	class:Sales_data
+revise	头.h	/^	revise,$/;"	e	enum:xuanxiang
+right	Test_qsort/Test_QuichSortWithPthread.c	/^    int right;$/;"	m	struct:__anon3	file:
+right	testC/Test_QuichSortWithPthread.c	/^    int right;$/;"	m	struct:__anon1	file:
+room	Schoolwork/hotelManageSys.h	/^    struct Room *room;$/;"	m	struct:Node	typeref:struct:Node::Room
+room	testC/hotelRoom_listFun.c	/^    struct Room *room;$/;"	m	struct:Node	typeref:struct:Node::Room	file:
+room_number	Schoolwork/hotelManageSys.h	/^  int room_number;         \/\/ 房号$/;"	m	struct:Room
+room_number	hotelManageSys.h	/^  int room_number;         \/\/ 房号$/;"	m	struct:Room
+room_price	Schoolwork/hotelManageSys.h	/^  double room_price;       \/\/ 房间价格$/;"	m	struct:Room
+room_price	hotelManageSys.h	/^  double room_price;       \/\/ 房间价格$/;"	m	struct:Room
+room_type	Schoolwork/hotelManageSys.h	/^  char room_type[20];      \/\/ 房间种类$/;"	m	struct:Room
+room_type	hotelManageSys.h	/^  char room_type[20];      \/\/ 房间种类$/;"	m	struct:Room
+row	serverchat/server.hh	/^    MYSQL_ROW row;      \/\/ 存储查询结果的一行数据$/;"	m	class:MySql
+row_count_now	serverchat/server.hh	/^    uint row_count_now; \/\/ 结果集合 遍历到哪了$/;"	m	class:MySql
+row_size	serverchat/server.hh	/^    uint row_size;      \/\/ 结果集合行数$/;"	m	class:MySql
+s	my_ls.h	/^bool s = 0;$/;"	v
+s	my_ls_10.22/my_ls.h	/^bool s = 0;$/;"	v
+s	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool s = 0;$/;"	v
+s	my_ls_2.0/my_ls.c	/^bool s = 0;$/;"	v
+scan	头.h	/^	scan,$/;"	e	enum:xuanxiang
+search	serverchat/server.hh	/^    user *search(std::string id)$/;"	f	class:userlist
+search_print	Schoolwork/hotelRoom_listFun.c	/^void search_print(struct Node *head)$/;"	f
+search_print	testC/hotelRoom_listFun.c	/^void search_print(struct Node *head)$/;"	f
+self	clientchat/client.hh	/^    job_in_Work_Queue *self = this;$/;"	m	struct:job_in_Work_Queue
+send_file_data	serverchat/action.cc	/^int send_file_data(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+send_message	clientchat/client.hh	/^    bool send_message(const std::string &message, const size_t &action, char const *timestamp)$/;"	f	class:user_sk
+send_message	serverchat/server.hh	/^    bool send_message(const std::string &message, const size_t &action, char *time_stamp)$/;"	f	class:socket_connect_to_client
+send_message_to_group	serverchat/action.cc	/^int send_message_to_group(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+send_message_to_user	serverchat/action.cc	/^int send_message_to_user(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+server_address	clientchat/client.hh	/^    struct sockaddr_in server_address;$/;"	m	class:ServerConnection_sock	typeref:struct:ServerConnection_sock::sockaddr_in
+server_address	serverchat/server.hh	/^    struct sockaddr_in server_address;$/;"	m	class:server_listen_socket	typeref:struct:server_listen_socket::sockaddr_in
+server_address_	serverchat/server.hh	/^    const struct sockaddr_in *server_address_() const { return &server_address; }$/;"	f	class:server_listen_socket
+server_listen_socket	serverchat/server.hh	/^    server_listen_socket(std::string IP, std::string port)$/;"	f	class:server_listen_socket
+server_listen_socket	serverchat/server.hh	/^class server_listen_socket$/;"	c
+server_listen_socket_fd	serverchat/server.hh	/^    int server_listen_socket_fd = -1;$/;"	m	class:server_listen_socket
+set_friend_name	clientchat/view.hh	/^    void set_friend_name(const std::string &name)$/;"	f	struct:friend_data
+set_username_password	serverchat/action.cc	/^int set_username_password(std::string *message, socket_connect_to_client *point, MySql *mysql, char *timestamp)$/;"	f
+set_window_size	clientchat/view.hh	29;"	d
+setup	clientchat/thread_Talk_to_User.cc	/^bool setup(Work_Queue &Ctrl_Work_Queue, Work_Queue &queue_btw_Ctrl_View)$/;"	f
+sex	头.h	/^	char sex[10];$/;"	m	struct:person
+show	clientchat/view.cc	/^void Window::show() const$/;"	f	class:Window
+sigint_handler	serverchat/fun.cc	/^void sigint_handler(int signum)$/;"	f
+singup	Schoolwork/hotelRoom_listFun.c	/^bool singup(char *username)$/;"	f
+size	my_ls.h	/^    int size;$/;"	m	struct:stack_dirent
+size	my_ls_10.22/my_ls.h	/^    int size;$/;"	m	struct:stack_dirent
+size	my_ls_10.22/my_ls_2.0/my_ls.h	/^    int size;$/;"	m	struct:stack_dirent
+size	my_ls_10.22/teat.c	/^    int size;$/;"	m	struct:stack_dirent	file:
+size	my_ls_2.0/my_ls.h	/^    int size;$/;"	m	struct:stack_dirent
+size	wang_string.cc	/^  size_t size = BUFFER_SIZE;$/;"	m	class:string	file:
+size_	头.h	/^static int size_ = 0;$/;"	v
+size_type	Test_ofC++Primer/test.cc	/^    typedef std::string::size_type size_type;$/;"	t	class:strBlob	file:
+sk_fd	clientchat/client.hh	/^    int sk_fd = -1;$/;"	m	class:ServerConnection_sock
+skt_fd_del_clo	clientchat/client.hh	/^    void skt_fd_del_clo()$/;"	f	class:user_sk
+skt_fd_del_clo	serverchat/server.hh	/^    void skt_fd_del_clo()$/;"	f	class:socket_connect_to_client
+socket_connect_to_client	serverchat/server.hh	/^    socket_connect_to_client(int fd)$/;"	f	class:socket_connect_to_client
+socket_connect_to_client	serverchat/server.hh	/^    socket_connect_to_client(int fd, struct sockaddr_in *addr) : to_client_socket_fd(fd) { memcpy(&client_address, addr, sizeof(struct sockaddr_in)); }$/;"	f	class:socket_connect_to_client
+socket_connect_to_client	serverchat/server.hh	/^    socket_connect_to_client(socket_connect_to_client &&other)$/;"	f	class:socket_connect_to_client
+socket_connect_to_client	serverchat/server.hh	/^class socket_connect_to_client$/;"	c
+sockets_pointer	serverchat/main.cc	/^std::set<class socket_connect_to_client *> *sockets_pointer = nullptr; \/\/ 是一个set的指针 保存所有已链接的socket$/;"	v
+sort	Schoolwork/hotelRoom_listFun.c	/^struct Node *sort(struct Node *head)$/;"	f
+sort	testC/hotelRoom_listFun.c	/^struct Node *sort(struct Node *head)$/;"	f
+sort	头.h	/^	sort$/;"	e	enum:xuanxiang
+sortR	my_ls_10.22/my_ls.c	/^void sortR(my_dirent *p_head)$/;"	f
+sortR	my_ls_10.22/my_ls_2.0/my_ls.c	/^void sortR(my_dirent *p_head)$/;"	f
+sortR	my_ls_2.0/my_ls.c	/^void sortR(my_dirent *p_head)$/;"	f
+sortR	testC/my_ls.c	/^void sortR(my_dirent *p_head)$/;"	f
+sortR	testC/my_ls_10.23.c	/^void sortR(my_dirent *p_head)$/;"	f
+sortT	my_ls_10.22/my_ls.c	/^void sortT(my_dirent *p_head) \/\/正向时间排序  \/\/无分配内存$/;"	f
+sortT	my_ls_10.22/my_ls_2.0/my_ls.c	/^void sortT(my_dirent* p_head)$/;"	f
+sortT	my_ls_2.0/my_ls.c	/^void sortT(my_dirent* p_head)$/;"	f
+sortT	testC/my_ls.c	/^void sortT(my_dirent *p_head) \/\/正向时间排序  \/\/无分配内存$/;"	f
+sortT	testC/my_ls_10.23.c	/^void sortT(my_dirent *p_head) \/\/正向时间排序  \/\/无分配内存$/;"	f
+sortTr	my_ls_10.22/my_ls.c	/^void sortTr(my_dirent *p_head) \/\/逆向时间排序  \/\/无分配内存$/;"	f
+sortTr	my_ls_10.22/my_ls_2.0/my_ls.c	/^void sortTr(my_dirent* p_head)$/;"	f
+sortTr	my_ls_2.0/my_ls.c	/^void sortTr(my_dirent* p_head)$/;"	f
+sortTr	testC/my_ls.c	/^void sortTr(my_dirent *p_head) \/\/逆向时间排序  \/\/无分配内存$/;"	f
+sortTr	testC/my_ls_10.23.c	/^void sortTr(my_dirent *p_head) \/\/逆向时间排序  \/\/无分配内存$/;"	f
+specified_node_delete_list	testC/list_of_MACRO.c	/^void specified_node_delete_list(list* *head, int target) {$/;"	f
+stack	my_ls_10.22/teat.c	/^struct stack_dirent stack={NULL,NULL,16}; $/;"	v	typeref:struct:stack_dirent
+stack_dirent	my_ls.h	/^struct stack_dirent{$/;"	s
+stack_dirent	my_ls_10.22/my_ls.h	/^struct stack_dirent{$/;"	s
+stack_dirent	my_ls_10.22/my_ls_2.0/my_ls.h	/^struct stack_dirent{$/;"	s
+stack_dirent	my_ls_10.22/teat.c	/^struct stack_dirent{$/;"	s	file:
+stack_dirent	my_ls_2.0/my_ls.h	/^struct stack_dirent{$/;"	s
+stack_dirent_node	my_ls.h	/^struct stack_dirent_node{$/;"	s
+stack_dirent_node	my_ls_10.22/my_ls.h	/^struct stack_dirent_node{$/;"	s
+stack_dirent_node	my_ls_10.22/my_ls_2.0/my_ls.h	/^struct stack_dirent_node{$/;"	s
+stack_dirent_node	my_ls_10.22/teat.c	/^struct stack_dirent_node{$/;"	s	file:
+stack_dirent_node	my_ls_2.0/my_ls.h	/^struct stack_dirent_node{$/;"	s
+stack_iniput	my_ls_10.22/my_ls.c	/^void stack_iniput(struct stack_dirent *stack, struct dirent *direntpointre)$/;"	f
+stack_iniput	my_ls_10.22/my_ls_2.0/my_ls.c	/^void stack_iniput(struct stack_dirent *stack,struct dirent *direntpointre)$/;"	f
+stack_iniput	my_ls_10.22/teat.c	/^void stack_iniput(struct stack_dirent stack,struct dirent *direntpointre)$/;"	f
+stack_iniput	my_ls_2.0/my_ls.c	/^void stack_iniput(struct stack_dirent *stack,struct dirent *direntpointre)$/;"	f
+stack_output	my_ls_10.22/my_ls.c	/^struct stack_dirent_node *stack_output(struct stack_dirent *stack)$/;"	f
+stack_output	my_ls_10.22/my_ls_2.0/my_ls.c	/^struct stack_dirent_node* stack_output(struct stack_dirent *stack)$/;"	f
+stack_output	my_ls_10.22/teat.c	/^struct stack_dirent_node* stack_output(struct stack_dirent stack)$/;"	f
+stack_output	my_ls_2.0/my_ls.c	/^struct stack_dirent_node* stack_output(struct stack_dirent *stack)$/;"	f
+stat	clientchat/view.hh	/^    std::string stat = ""; \/\/ 在好友列表中 指代好友的关系 在群组中指代manager\/owner$/;"	m	struct:user_data
+stat	clientchat/view.hh	/^    win_stat stat = 4294967295U;$/;"	m	class:Window
+stat_ref	clientchat/view.hh	/^    win_stat const &stat_ref = stat;$/;"	m	class:Window
+statnode	my_ls_10.22/my_ls.c	/^struct stat *statnode = NULL;$/;"	v	typeref:struct:stat
+statnode	my_ls_10.22/my_ls_2.0/my_ls.c	/^struct stat* statnode = NULL;$/;"	v	typeref:struct:stat
+statnode	my_ls_2.0/my_ls.c	/^struct stat* statnode = NULL;$/;"	v	typeref:struct:stat
+statnode	testC/my_ls.c	/^struct stat *statnode = NULL;$/;"	v	typeref:struct:stat
+statnode	testC/my_ls_10.23.c	/^struct stat *statnode = NULL;$/;"	v	typeref:struct:stat
+stop	serverchat/server.hh	/^    void stop()$/;"	f	class:thread_pool
+strBlob	Test_ofC++Primer/test.cc	/^class strBlob$/;"	c	file:
+strBlob	Test_ofC++Primer/test.cc	/^strBlob::strBlob()$/;"	f	class:strBlob
+strBlob	Test_ofC++Primer/test.cc	/^strBlob::strBlob(std::initializer_list<std::string> a)$/;"	f	class:strBlob
+strbuf	C语言的动态扩容/head.h	/^typedef struct strbuf {$/;"	s
+strbuf	C语言的动态扩容/head.h	/^}strbuf;$/;"	t	typeref:struct:strbuf
+strbuf_add	C语言的动态扩容/object.c	/^void strbuf_add(struct strbuf *sb, const void *data, size_t len)$/;"	f
+strbuf_add	testC/Wyb.c	/^void strbuf_add(struct strbuf *sb, const void *data, size_t len)$/;"	f
+strbuf_addbuf	C语言的动态扩容/object.c	/^void strbuf_addbuf(struct strbuf *sb, const struct strbuf *sb2)$/;"	f
+strbuf_addbuf	testC/Wyb.c	/^void strbuf_addbuf(struct strbuf *sb, const struct strbuf *sb2)$/;"	f
+strbuf_addch	C语言的动态扩容/object.c	/^void strbuf_addch(strbuf *sb , char c)$/;"	f
+strbuf_addch	testC/Wyb.c	/^void strbuf_addch(struct strbuf*sb , int c)$/;"	f
+strbuf_addstr	C语言的动态扩容/object.c	/^void strbuf_addstr(strbuf * sb,const char* s)$/;"	f
+strbuf_addstr	testC/Wyb.c	/^void strbuf_addstr(struct strbuf* sb,const char* s)$/;"	f
+strbuf_attach	C语言的动态扩容/object.c	/^void strbuf_attach(strbuf *sb ,void *str ,size_t len ,size_t alloc)\/\/????$/;"	f
+strbuf_attach	testC/Wyb.c	/^void strbuf_attach(struct strbuf*sb,void*str,size_t len,size_t alloc){\/\/str的len和alloc$/;"	f
+strbuf_avail	C语言的动态扩容/object.c	/^size_t strbuf_avail(const strbuf  *sb )$/;"	f
+strbuf_avail	testC/Wyb.c	/^size_t strbuf_avail(const struct strbuf *sb )$/;"	f
+strbuf_begin_judge	C语言的动态扩容/object.c	/^bool strbuf_begin_judge(char* target_str, const char* str, int strlen)$/;"	f
+strbuf_begin_judge	testC/Wyb.c	/^bool strbuf_begin_judge(char* target_str, const char* str, int strlen)$/;"	f
+strbuf_cmp	C语言的动态扩容/object.c	/^int strbuf_cmp(const struct strbuf *first, const struct strbuf *second)$/;"	f
+strbuf_cmp	testC/Wyb.c	/^int strbuf_cmp(const struct strbuf *first, const struct strbuf *second)$/;"	f
+strbuf_detach	C语言的动态扩容/object.c	/^char *strbuf_detach(struct strbuf * const sb, size_t *sz)\/\/返回的字符串是malloc的\/\/?会改变sb的地址?$/;"	f
+strbuf_detach	testC/Wyb.c	/^char *strbuf_detach(struct strbuf * const sb, size_t *sz)\/\/返回的字符串是malloc的\/\/?会改变sb的地址?$/;"	f
+strbuf_get_mid_buf	C语言的动态扩容/object.c	/^char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len)$/;"	f
+strbuf_get_mid_buf	testC/Wyb.c	/^char* strbuf_get_mid_buf(char* target_buf, int begin, int end, int len)$/;"	f
+strbuf_getline	testC/Wyb.c	/^int strbuf_getline(struct strbuf* sb, FILE* fp)$/;"	f
+strbuf_grow	C语言的动态扩容/object.c	/^int strbuf_grow(strbuf* sb,size_t extra)$/;"	f
+strbuf_grow	testC/Wyb.c	/^void strbuf_grow(struct strbuf* sb,size_t extra)$/;"	f
+strbuf_init	C语言的动态扩容/object.c	/^void strbuf_init(struct strbuf *sb, size_t alloc){$/;"	f
+strbuf_init	testC/Wyb.c	/^void strbuf_init(struct strbuf*sb,size_t alloc){$/;"	f
+strbuf_insert	C语言的动态扩容/object.c	/^void strbuf_insert(strbuf * sb, size_t pos,const void* data,size_t len)$/;"	f
+strbuf_insert	testC/Wyb.c	/^void strbuf_insert(struct strbuf* sb, size_t pos,const void* data,size_t len)$/;"	f
+strbuf_ltrim	C语言的动态扩容/object.c	/^void strbuf_ltrim(strbuf *sb)	                       $/;"	f
+strbuf_ltrim	testC/Wyb.c	/^void strbuf_ltrim(struct strbuf*sb)$/;"	f
+strbuf_read	testC/Wyb.c	/^ssize_t strbuf_read(struct strbuf* sb, int fd, size_t hint)\/\/hint,0x1000,直接给他扩容$/;"	f
+strbuf_release	C语言的动态扩容/object.c	/^void strbuf_release(struct strbuf *sb)$/;"	f
+strbuf_release	testC/Wyb.c	/^void strbuf_release(struct strbuf *sb)$/;"	f
+strbuf_remove	C语言的动态扩容/object.c	/^void strbuf_remove(struct strbuf *sb, size_t pos, size_t len){$/;"	f
+strbuf_remove	testC/Wyb.c	/^void strbuf_remove(struct strbuf *sb, size_t pos, size_t len){$/;"	f
+strbuf_reset	C语言的动态扩容/object.c	/^void strbuf_reset(struct strbuf *sb){$/;"	f
+strbuf_reset	testC/Wyb.c	/^void strbuf_reset(struct strbuf *sb){$/;"	f
+strbuf_rtrim	C语言的动态扩容/object.c	/^void strbuf_rtrim(strbuf *sb)	$/;"	f
+strbuf_rtrim	testC/Wyb.c	/^void strbuf_rtrim(struct strbuf*sb)$/;"	f
+strbuf_setlen	C语言的动态扩容/object.c	/^void strbuf_setlen(strbuf *sb,size_t len)$/;"	f
+strbuf_setlen	testC/Wyb.c	/^void strbuf_setlen(struct strbuf *sb, size_t len)$/;"	f
+strbuf_split_buf	C语言的动态扩容/object.c	/^struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max)$/;"	f
+strbuf_split_buf	testC/Wyb.c	/^struct strbuf **strbuf_split_buf(const char *str, size_t len, int terminator, int max)$/;"	f
+strbuf_swap	C语言的动态扩容/object.c	/^void strbuf_swap(strbuf*a,strbuf*b)$/;"	f
+strbuf_swap	testC/Wyb.c	/^void strbuf_swap(struct strbuf*a,struct strbuf*b)$/;"	f
+string	string.cpp	/^string::string() {$/;"	f	class:string
+string	string.cpp	/^string::string(const char *p) {$/;"	f	class:string
+string	string.cpp	/^string::string(const char *p, int len) {$/;"	f	class:string
+string	string.cpp	/^string::string(const char *p, int pos, int len) {$/;"	f	class:string
+string	string.cpp	/^string::string(const string &p) {$/;"	f	class:string
+string	string.cpp	/^string::string(int count, char a) {$/;"	f	class:string
+string	string.h	/^struct string {$/;"	s
+string	wang_string.cc	/^  string() : length(0), size(BUFFER_SIZE) {$/;"	f	class:string
+string	wang_string.cc	/^  string(const char *s)$/;"	f	class:string
+string	wang_string.cc	/^  string(const char *s, size_t n)$/;"	f	class:string
+string	wang_string.cc	/^  string(const string &str, size_t pos, size_t len) {$/;"	f	class:string
+string	wang_string.cc	/^  string(size_t n, char c)$/;"	f	class:string
+string	wang_string.cc	/^  string(string const &other) : length(other.length), size(other.size) {$/;"	f	class:string
+string	wang_string.cc	/^class string {$/;"	c	file:
+stu	testC++/qsort + struct .cpp	/^typedef struct stu {$/;"	s	file:
+submit	clientchat/client.hh	/^    bool submit(job_in_Work_Queue *j)$/;"	f	class:Work_Queue
+submit	clientchat/client.hh	/^    bool submit(size_t mode, std::string *message)$/;"	f	class:Work_Queue
+submit	clientchat/client.hh	/^    bool submit(size_t mode, std::string *message, char *timestamp)$/;"	f	class:Work_Queue
+submit	serverchat/server.hh	/^    void submit(item_of_works work)$/;"	f	class:thread_pool
+substr	string.cpp	/^string string::substr(int i) {$/;"	f	class:string
+substr	string.cpp	/^string string::substr(int pos, int len) {$/;"	f	class:string
+success	clientchat/thread_Talk_to_User.cc	20;"	d	file:
+swap	C语言的动态扩容/object.c	/^int swap(int *a,int*b)$/;"	f
+swap	Schoolwork/hotelRoom_listFun.c	/^void swap(struct Node *a, struct Node *b)$/;"	f
+swap	Test_qsort/Test_QuichSortWithPthread.c	/^void swap(int* a, int* b) {$/;"	f
+swap	Test_qsort/Test_QuickSort.c	/^void swap(int *a, int *b) {$/;"	f
+swap	testC/Test_QuichSortWithPthread.c	/^void swap(int* a, int* b) {$/;"	f
+swap	testC/Test_QuickSort.c	/^void swap(int *a, int *b) {$/;"	f
+swap	testC/Wyb.c	/^int swap(int *a,int*b)$/;"	f
+swap	testC/hotelRoom_listFun.c	/^void swap(struct Node *a, struct Node *b)$/;"	f
+t	my_ls.h	/^bool t = 0;$/;"	v
+t	my_ls_10.22/my_ls.h	/^bool t = 0;$/;"	v
+t	my_ls_10.22/my_ls_2.0/my_ls.c	/^bool t = 0;$/;"	v
+t	my_ls_2.0/my_ls.c	/^bool t = 0;$/;"	v
+tailInsert	Schoolwork/hotelRoom_listFun.c	/^struct Node *tailInsert(struct Node *head, struct Node *node)$/;"	f
+tailInsert	testC/hotelRoom_listFun.c	/^struct Node *tailInsert(struct Node *head, struct Node *node)$/;"	f
+tail_delete	testC/list_of_MACRO.c	/^void tail_delete(list**head) {$/;"	f
+tail_insert	testC/list_of_MACRO.c	/^void tail_insert(list ** head,int value)$/;"	f
+tail_insert_	testC/list_of_MACRO.c	/^void tail_insert_(list** head, int value)$/;"	f
+temp	testC/生产者消费者.c	/^struct msg *temp = NULL;    \/\/节点指针$/;"	v	typeref:struct:msg
+test	string.cpp	/^void test() {$/;"	f
+test1	string.cpp	/^void test1() {$/;"	f
+test2	string.cpp	/^void test2() {$/;"	f
+test3	string.cpp	/^void test3() {$/;"	f
+test4	string.cpp	/^void test4() {$/;"	f
+thread_args	Test_qsort/Test_QuichSortWithPthread.c	/^} thread_args;$/;"	t	typeref:struct:__anon3	file:
+thread_args	testC/Test_QuichSortWithPthread.c	/^} thread_args;$/;"	t	typeref:struct:__anon1	file:
+thread_begin	serverchat/thread_threadpool.cc	/^void thread_begin(std::queue<item_of_works> *work_queue,$/;"	f
+thread_pool	serverchat/server.hh	/^    thread_pool(size_t threads_num) : my_condition(), my_mutex(), is_stop(false)$/;"	f	class:thread_pool
+thread_pool	serverchat/server.hh	/^class thread_pool$/;"	c
+threads	clientchat/client_main.cc	/^std::vector<std::thread> threads;$/;"	v
+timestamp	clientchat/client.hh	/^    char *timestamp = nullptr;$/;"	m	struct:job_in_Work_Queue
+timestamp	serverchat/server.hh	/^    char *timestamp = NULL;                                                 \/\/ size = 28 strlen("0000-00-00 00:00:00.000000")+1$/;"	m	struct:item_of_works
+to_client_socket_fd	clientchat/client.hh	/^    int to_client_socket_fd = -1;$/;"	m	class:user_sk
+to_client_socket_fd	serverchat/server.hh	/^    int to_client_socket_fd = -1;$/;"	m	class:socket_connect_to_client
+to_down_load_history_set	clientchat/client_main.cc	/^int to_down_load_history_set(std::string &message)$/;"	f
+to_escape_text	serverchat/server.hh	/^    char const *const to_escape_text(std::string &command) { return escapeString(command); }$/;"	f	class:MySql
+to_revise	testC++/函数.cpp	/^int to_revise(struct person** point, int size_)$/;"	f
+try_lock	clientchat/client.hh	/^    bool try_lock() { return data_lock.try_lock(); }$/;"	f	class:Ctrl_Data_On_View
+u_sk_ptr	clientchat/client_main.cc	/^user_sk *u_sk_ptr = NULL;$/;"	v
+unfriend	serverchat/server.hh	/^    std::set<std::string> unfriend;$/;"	m	struct:user
+unfriend_set_lock	serverchat/server.hh	/^    std::mutex unfriend_set_lock;$/;"	m	struct:user
+units_sold	Sales_data__C++Primer/Sales_data.h	/^		unsigned units_sold = 0;$/;"	m	class:Sales_data
+units_sold	Test_ofC++Primer/Sales_data_class__C++Primer/Sales_data.h	/^		unsigned units_sold = 0;$/;"	m	class:Sales_data
+unlock	clientchat/client.hh	/^    void unlock() { data_lock.unlock(); }$/;"	f	class:Ctrl_Data_On_Ctrl
+unlock	clientchat/client.hh	/^    void unlock() { data_lock.unlock(); }$/;"	f	class:Ctrl_Data_On_View
+unlock	serverchat/server.hh	/^    void unlock()$/;"	f	class:My_shared_mutex
+unlock_shared	serverchat/server.hh	/^    void unlock_shared()$/;"	f	class:My_shared_mutex
+user	serverchat/server.hh	/^    user(socket_connect_to_client *a, std::string name, std::string id)$/;"	f	struct:user
+user	serverchat/server.hh	/^struct user$/;"	s
+user_cache	clientchat/view.hh	/^    static nlohmann::json user_cache;$/;"	m	class:Window
+user_data	clientchat/view.hh	/^    user_data(std::string &&id, std::string &&name) : id(std::move(id)), name(std::move(name)) {$/;"	f	struct:user_data
+user_data	clientchat/view.hh	/^    user_data(std::string &id, std::string &name, std::string &stat) : id(std::move(id)), name(std::move(name)), stat(std::move(stat)) {}$/;"	f	struct:user_data
+user_data	clientchat/view.hh	/^struct user_data$/;"	s
+user_id	clientchat/client.hh	/^    static std::string user_id;$/;"	m	class:Ctrl_Data
+user_id	clientchat/view.hh	/^    static std::string user_id;$/;"	m	class:Window
+user_id_ref	clientchat/view.hh	/^    std::string const &user_id_ref = user_id;$/;"	m	class:Window::std
+user_level	clientchat/view.hh	/^    int user_level = -1;$/;"	m	struct:group_data
+user_list_shared_mutex	serverchat/server.hh	/^    class My_shared_mutex user_list_shared_mutex;$/;"	m	class:userlist	typeref:class:userlist::My_shared_mutex
+user_name	clientchat/client.hh	/^    static std::string user_name;$/;"	m	class:Ctrl_Data
+user_name	clientchat/view.hh	/^    static std::string user_name;$/;"	m	class:Window
+user_name_ref	clientchat/view.hh	/^    std::string const &user_name_ref = user_name;$/;"	m	class:Window::std
+user_sk	clientchat/client.hh	/^    user_sk(int fd)$/;"	f	class:user_sk
+user_sk	clientchat/client.hh	/^    user_sk(int fd, struct sockaddr_in *addr) : to_client_socket_fd(fd) { memcpy(&client_address, addr, sizeof(struct sockaddr_in)); }$/;"	f	class:user_sk
+user_sk	clientchat/client.hh	/^    user_sk(user_sk &&other)$/;"	f	class:user_sk
+user_sk	clientchat/client.hh	/^class user_sk$/;"	c
+userlist	serverchat/server.hh	/^class userlist$/;"	c
+users	serverchat/server.hh	/^    std::map<std::string, class user *> users;$/;"	m	class:userlist
+usrPassWord	Schoolwork/hotelManageSys.h	/^struct usrPassWord$/;"	s
+usrname	Schoolwork/hotelManageSys.h	/^  char usrname[64];$/;"	m	struct:usrPassWord
+usrnameAndPassword	Schoolwork/hotelRoom_listFun.c	/^bool usrnameAndPassword(const char *usrname)$/;"	f
+val	testC++/源.cpp	/^          int val;$/;"	m	struct:ListNode	file:
+viewList	Schoolwork/hotelRoom_listFun.c	/^void viewList()$/;"	f
+view_begin	clientchat/view.cc	/^void view_begin(const Window *page)$/;"	f
+view_chat_friend	clientchat/view.cc	/^void view_chat_friend(const Window *page)$/;"	f
+view_chat_group	clientchat/view.cc	/^void view_chat_group(const Window *page)$/;"	f
+view_manage_friend	clientchat/view.cc	/^void view_manage_friend(const Window *page)$/;"	f
+view_manage_group	clientchat/view.cc	/^void view_manage_group(const Window *page)$/;"	f
+view_manage_self	clientchat/view.cc	/^void view_manage_self(const Window *page)$/;"	f
+view_notices	clientchat/view.cc	/^void view_notices(const Window *page)$/;"	f
+view_on_chatid	clientchat/client.hh	/^    std::string view_on_chatid;$/;"	m	class:filesystem
+view_show_group_data	clientchat/view.cc	/^void view_show_group_data(const Window *page)$/;"	f
+wang	py1/test..py	/^wang = list(("wagn",333,33333,3,True,False,False))$/;"	v
+wang	testC++/qsort + struct .cpp	/^xue_sheng wang = {$/;"	v
+want_to_chat_friend	clientchat/view.hh	/^    friend_data want_to_chat_friend; \/\/ 页面传递后会置空$/;"	m	class:Window
+want_to_chat_group	clientchat/view.hh	/^    group_data want_to_chat_group;   \/\/ 页面传递后会置空$/;"	m	class:Window
+windows	clientchat/thread_Talk_to_User.cc	/^std::stack<Window> windows;$/;"	v
+wq	clientchat/client.hh	/^    Work_Queue *wq; \/\/ 需要赋值 | view 的消息获取队列 用来通知需要flush$/;"	m	class:filesystem
+write_fd	clientchat/client.hh	/^    int const &write_fd;$/;"	m	class:Work_Queue
+write_mutex	clientchat/client.hh	/^    std::mutex write_mutex;$/;"	m	class:Work_Queue
+writer_	serverchat/server.hh	/^    bool writer_ = false;        \/\/ 是否有写者$/;"	m	class:My_shared_mutex
+xuanxiang	头.h	/^enum xuanxiang {$/;"	g
+xue_sheng	testC++/qsort + struct .cpp	/^}xue_sheng;$/;"	t	typeref:struct:stu	file:
+yiban	testC++/qsort + struct .cpp	/^xue_sheng yiban[2] = { wang,zhang };$/;"	v
+zhang	testC++/qsort + struct .cpp	/^xue_sheng zhang = {$/;"	v
+~MySql	serverchat/server.hh	/^    ~MySql()$/;"	f	class:MySql
+~PrimeTable	Test_gtest/prime_tables.h	/^  virtual ~PrimeTable() {}$/;"	f	class:PrimeTable
+~ServerConnection_sock	clientchat/client.hh	/^    ~ServerConnection_sock()$/;"	f	class:ServerConnection_sock
+~Work_Queue	clientchat/client.hh	/^    ~Work_Queue()$/;"	f	class:Work_Queue
+~server_listen_socket	serverchat/server.hh	/^    ~server_listen_socket() { close(server_listen_socket_fd); };$/;"	f	class:server_listen_socket
+~string	string.cpp	/^string::~string() {$/;"	f	class:string
+~string	wang_string.cc	/^  ~string() {$/;"	f	class:string
+~thread_pool	serverchat/server.hh	/^    ~thread_pool() { stop(); }$/;"	f	class:thread_pool
