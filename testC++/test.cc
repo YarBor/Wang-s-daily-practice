@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <array>
+#include "test2.cc"
 #include <queue>
 #include <iterator>
 int * function (int arg,int a =10)
