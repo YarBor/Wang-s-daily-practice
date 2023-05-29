@@ -17,7 +17,7 @@
 //     istream_iterator<string> int_iter(in); // 从cin读取int
 //     istream_iterator<string> eofs;           // istream尾后迭代器
 //     vector<string> vec(int_iter,eofs);
-//     list<string> eof{""}; 
+//     list<string> eof{""};
 //     list<string> l{"wang","yi","bo","hhhh"};
 //     // auto it = eof.begin();
 //     copy(l.begin(),l.end(),it);

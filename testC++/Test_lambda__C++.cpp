@@ -1,9 +1,9 @@
-#include <list>
-#include <vector>
-#include <iostream>
 #include <algorithm>
 #include <cmath>
+#include <iostream>
+#include <list>
 #include <string>
+#include <vector>
 // void abssort(float *x, unsigned n)
 // {
 //     std::sort(x, x + n,
@@ -61,8 +61,7 @@ int main(int argc, char **argv)
     {
         cout << i << endl;
     }
-    l.sort([](string &s1, string &s2) -> bool
-         { return s1 > s2; });
+    l.sort([](string &s1, string &s2) -> bool { return s1 > s2; });
     // sort(l.begin(), l.end());
     // cout << (l[1]>l[2]) << std::endl;
     for (auto const i : l)

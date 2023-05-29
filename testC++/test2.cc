@@ -12,27 +12,73 @@
 
 using namespace std;
 
-class Solution {
- public:
-  int minPathSum(vector<vector<int>>& grid) {
-    int m = grid.size();
-    int n = grid[0].size();
-    int dp[m][n];
-    dp[0][0] = grid[0][0];
-    for (int i = 1; i < n; i++) {
-      dp[0][i] = dp[0][i - 1] + grid[0][i];
+#include <cassert>
+#include <iostream>
+
+std::ostream &operator<<(std::ostream &out, const std::vector<vector<int>> &a)
+{
+    for (vector<int> const &aa : a)
+    {
+        for (int aaa : aa)
+        {
+            cout << aaa << " ";
+        }
+        cout << endl;
     }
-    for (int i = 1; i < m; i++) {
-      dp[i][0] = dp[i - 1][0] + grid[i][0];
+    return cout << endl;
+}
+
+class Solution
+{
+  public:
+    vector<vector<int>> subsets(vector<int> &nums)
+    {
+        for (int a = 0; a < nums.size(); ++a)
+        {
+            fun(nums, a);
+        }
+        return std::move(result);
     }
-    for (int i = 1; i < m; i++) {
-      for (int j = 1; j < n; j++) {
-        dp[i][j] = min(dp[i - 1][j] + grid[i][j], dp[i][j - 1] + grid[i][j]);
-      }
+    void fun(vector<int> &result, int i)
+    {
     }
-    return dp[m - 1][n - 1];
-  }
+
+    vector<vector<int>> result;
 };
+
+// #define assert(X) std::cout << X << std::endl
+
+vector<vector<int>> fun(vector<int> &result, int n)
+{
+    vector<vector<int>> res; // 用于存储所有生成的排列
+    if (n == 0)
+    { // 如果排列长度为0，则返回一个只包含空向量的向量
+        res.push_back({});
+        return res;
+    }
+    for (int i = 0; i < n; ++i)
+    {
+        swap(result[i],
+             result[n - 1]); // 将第i个元素放到最后一个位置上，即未处理的序列的最后一位
+        auto sub_res = fun(result, n - 1); // 递归地生成剩余元素的所有排列
+        for (auto &vec : sub_res)
+        {                                 // 遍历子问题的所有解
+            vec.push_back(result[n - 1]); // 将已经放在最后一位的元素添加到当前解中
+            res.push_back(vec);           // 将当前解添加到结果中
+        }
+        swap(result[i], result[n - 1]); // 恢复原序列
+    }
+    return res; // 返回所有排列
+}
+int main()
+{
+    vector<int> res{0, 1, 2, 3};
+    vector<vector<int>> &&a = fun(res, 4);
+    sort(a.begin(), a.end());
+    cout << a << endl;
+}
+
+// int main() { cout << minDistance("11", "1lilil"); }
 
 // class Solution {
 //  public:

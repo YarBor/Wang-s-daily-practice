@@ -4,6 +4,9 @@
         "queue": "cpp",
         "numeric": "cpp",
         "unordered_map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cassert": "cpp",
+        "ostream": "cpp",
+        "functional": "cpp"
     }
 }
