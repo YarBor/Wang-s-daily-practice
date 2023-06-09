@@ -9,5 +9,6 @@
         "ostream": "cpp",
         "functional": "cpp",
         "*.inc": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
